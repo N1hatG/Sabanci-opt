@@ -22,6 +22,7 @@ if len(sys.argv) > 3:
     status_code = os.system(f'./LKH solutions/{instance_id}/part2.par')
     if status_code != 0:
         print(f'LKH-3 failed. Exiting...')
+        generate_vrp.get_trivial_vrp(model, solution, instance_id)
         sys.exit(1)
     print('LKH-3 successful. Parsing the results..')
     tours = generate_vrp.lkh3_sol_to_jagged(f'solutions/{instance_id}/tour.sol', model.num_healthcenters+1)

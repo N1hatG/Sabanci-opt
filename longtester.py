@@ -39,13 +39,14 @@ while 1:
 output_path = None
 if not not solution:
     print("❌ No feasible solution found for any radius.")
-generate_lkh3_vrp_file_from_solution(solution, instance_id)
+generate_lkh3_vrp_file_from_solution(solution, instance_id, time_limit='60')
 solution.to_file(f'solutions/{instance_id}/Sol_{instance_id}.txt')
 print(f"✅ Final radius used: {selected_radius}")
 print('Running LKH-3...')
 res_code = os.system(f'./LKH solutions/{instance_id}/part2.par')
 if res_code != 0:
     print('LKH-3 failed. Exiting...')
+    generate_vrp.get_trivial_vrp(model, solution, instance_id)
     sys.exit(1)
 print('LKH-3 successful. Parsing the results..')
 tours = lkh3_sol_to_jagged(f'solutions/{instance_id}/tour.sol', model.num_healthcenters+1)
@@ -85,10 +86,12 @@ for tour_num, tour in enumerate(tours):
     last_city = tour[-1]
     if last_city != 0:
         print("???????????????????????")
+        generate_vrp.get_trivial_vrp(model, solution, instance_id)
         sys.exit()
     str_tour.append('Depot')
     if available_capacity < 0:
         print(f'Tour {tour_num+1} is out of capacity')
+        generate_vrp.get_trivial_vrp(model, solution, instance_id)
         sys.exit()
     res_str += f"""Route {tour_num+1}: {' -> '.join(str_tour)}\n"""
 res_str += f'Objective Value: {tot_dist}'

@@ -184,7 +184,7 @@ def solve_to_optimality(problem: ProblemModel, radius):
     model.setObjective(Z, GRB.MINIMIZE)
     model.optimize()
     if 1:
-        if model.status == GRB.OPTIMAL:
+        if model.status != GRB.INFEASIBLE:
             assigned_cities = {}
             print(f'Solution found')
             for i in range(problem.num_communities):
@@ -221,7 +221,7 @@ def solve_capacity_removed(problem: ProblemModel, max_radius, banned_sols = None
     for i in range(problem.num_communities):
         feasible_points = feasible_ranges[i]
         model.addConstr(
-            gp.quicksum(is_center[i] for i in feasible_points) >= 3
+            gp.quicksum(is_center[i] for i in feasible_points) >= 1
         )
 
     # maximum C healthcenters
@@ -267,7 +267,7 @@ def solve_distribute_cities(curr_sol: FirstSolution):
     problem = curr_sol.model
     
     model = gp.Model()
-    model.setParam('TimeLimit', 60*2)
+    #model.setParam('TimeLimit', 60*2)
 
     centers = []
     # 1 if city i assigned to center c

@@ -34,8 +34,8 @@ def generate_lkh3_vrp_file_from_solution(solution, instance_id: str, vehicle_cap
         f.write(content)
     with open(f'solutions/{instance_id}/part2.par', 'w+') as f:
         par_str = f'PROBLEM_FILE = solutions/{instance_id}/part2.vrp\nTOUR_FILE = solutions/{instance_id}/tour.sol\n'
-        if time_limit is not None:
-            par_str += f'TIME_LIMIT = {time_limit}'
+        if True:
+            par_str += f'TIME_LIMIT = 60\nRUNS = 2'
         f.write(par_str)
     print(f"✅ VRP file written to: {output_path}")
 
