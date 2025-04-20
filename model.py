@@ -30,7 +30,7 @@ class ProblemModel:
         with open(filepath, 'r') as fil:
             lines = fil.readlines()
         if not lines:
-            print("Wadafak")
+            print("Error")
             return
         (communities,healthcenters) = to_num_arr(lines[0])
         _, centerx, centery = to_num_arr(lines[1])
@@ -124,3 +124,11 @@ class FirstSolution:
                 return False
         return True
         
+    def to_file(self, filepath):
+        res_str = 'Stage-1:\n'
+        for c in self.centers:
+            res_str += f"""Healthcenter deployed at {c.index}: Communities Assigned = {'{' + ', '.join([str(u.index) for u in self.assigned_cities[c]]) + '}'}\n"""
+        res_str += f'Objective Value: {self.calculate_objective()}\n\n'
+
+        with open(filepath, 'w+') as fil:
+            fil.write(res_str)

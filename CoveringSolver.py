@@ -6,7 +6,7 @@ from gurobipy import GRB
 
 import sys
 
-sys.stdout = open("output_log.txt", "w")
+#sys.stdout = open("output_log.txt", "w")
 
 # Finds *one* solution if optimal solution is below given radius. Can be used with binary search
 def solve_given_r(problem: ProblemModel, radius):

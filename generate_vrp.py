@@ -1,7 +1,8 @@
 import argparse
 from model import ProblemModel
 
-def generate_lkh3_vrp_file_from_solution(solution, output_path: str, vehicle_capacity: int = 10000):
+def generate_lkh3_vrp_file_from_solution(solution, instance_id: str, vehicle_capacity: int = 10000):
+    output_path = f'solutions/{instance_id}/part2.vrp'
     depot_x, depot_y = solution.model.depot
     centers = solution.centers
     assigned = solution.assigned_cities
@@ -31,6 +32,30 @@ def generate_lkh3_vrp_file_from_solution(solution, output_path: str, vehicle_cap
     content = format_vrp(remapped, vehicle_capacity)
     with open(output_path, "w") as f:
         f.write(content)
+    with open(f'solutions/{instance_id}/part2.par', 'w+') as f:
+        f.write(f'PROBLEM_FILE = solutions/{instance_id}/part2.vrp\nTOUR_FILE = solutions/{instance_id}/tour.sol')
     print(f"✅ VRP file written to: {output_path}")
 
     return output_path
+
+def lkh3_sol_to_jagged(sol_path, city_count):
+    text = open(sol_path).readlines()
+    curr_ind = 0
+    city_arr = []
+    while text[curr_ind] != 'TOUR_SECTION\n':
+        curr_ind += 1
+    curr_ind += 1
+    while text[curr_ind] != '-1\n':
+        city_arr.append(int(text[curr_ind].strip()))
+        curr_ind += 1
+    city_arr.append(10**8) # flush the last tour
+    all_tours = []
+    curr_tour = []
+    for city in city_arr:
+        if city <= city_count:
+            curr_tour.append(city-1)
+            continue
+        curr_tour.append(0)
+        all_tours.append(curr_tour)
+        curr_tour = [0]
+    return(all_tours)
