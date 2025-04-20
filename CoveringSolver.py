@@ -95,8 +95,10 @@ def solve_given_r(problem: ProblemModel, radius):
                         assigned_cities[j].append(i)
             res = FirstSolution(assigned_cities, problem)
             res.print_sol()
+            return res
         else:
             print(f'No feasible solution found for r={radius}')
+            return False
 
 # Finds the optimal solution as long as radius is above it. Bigger radius means slower solution
 def solve_to_optimality(problem: ProblemModel, radius):
@@ -201,7 +203,7 @@ def solve_to_optimality(problem: ProblemModel, radius):
 
 # each healthcenter contains closest k points, turning n^2 decision variables to n
 # but we lose the optimality
-def solve_capacity_removed(problem: ProblemModel, max_radius):
+def solve_capacity_removed(problem: ProblemModel, max_radius, banned_sols = None):
     model = gp.Model('Sabanci_Covering_Model_RelaxedC')
     feasible_ranges = algos.get_points_in_range(max_radius, problem.nodes)
     # Decision variables
@@ -219,7 +221,7 @@ def solve_capacity_removed(problem: ProblemModel, max_radius):
     for i in range(problem.num_communities):
         feasible_points = feasible_ranges[i]
         model.addConstr(
-            gp.quicksum(is_center[i] for i in feasible_points) >= 1
+            gp.quicksum(is_center[i] for i in feasible_points) >= 3
         )
 
     # maximum C healthcenters
@@ -227,6 +229,14 @@ def solve_capacity_removed(problem: ProblemModel, max_radius):
     model.addConstr(
         gp.quicksum(is_center[i] for i in range(problem.num_communities)) == problem.num_healthcenters
     )
+    
+    # Remove already done solutions
+    if banned_sols:
+        for banned_solution in banned_sols:
+            centers: List[PopulationNode] = banned_solution.centers
+            model.addConstr(
+                gp.quicksum(is_center[c.index-1] for c in centers) <= len(centers) -1
+            )
 
 
     print(f'Starting optimization...')        
@@ -257,6 +267,7 @@ def solve_distribute_cities(curr_sol: FirstSolution):
     problem = curr_sol.model
     
     model = gp.Model()
+    model.setParam('TimeLimit', 60*2)
 
     centers = []
     # 1 if city i assigned to center c
@@ -283,7 +294,6 @@ def solve_distribute_cities(curr_sol: FirstSolution):
         model.addConstr(
             gp.quicksum(problem.nodes[i].population_size* is_assigned_to[i, center] for i in range(problem.num_communities)) <= curr_sol.centers[center].healthcare_capacity
         )
-
     model.optimize()
     if model.status == GRB.INFEASIBLE:
         return False
@@ -298,25 +308,36 @@ def solve_distribute_cities(curr_sol: FirstSolution):
             assigned_dict[curr_sol.centers[i]] = assigned_cities[i]
         new_sol = FirstSolution(assigned_dict, problem)
         new_sol.print_sol()
-        return True
+        return new_sol
 
-
-def solve_capacity_removed_withz(problem: ProblemModel, max_radius, banned_sols = None, lb=None):
+def solve_capacity_removed_withz(problem: ProblemModel, max_radius, banned_sols = None):
     model = gp.Model('Sabanci_Covering_Model_RelaxedC')
     feasible_ranges = algos.get_points_in_range(max_radius, problem.nodes)
+    center_can_cover = [[] for _ in range(problem.num_communities)]
+    for i in range(problem.num_communities):
+        for j in feasible_ranges[i]:
+            center_can_cover[j].append(i)
     # Decision variables
     print(f'Initializing decision variables.')
     # 1 if city i contains a healthcenter, 0 otherwise
     is_center = model.addVars(problem.num_communities, vtype=GRB.BINARY)
 
-    Z = model.addVar()
-    
-    # represents maximum distance to healthcenter in each city, minimum is better but isnt linear programmable
-    city_max = model.addVars(problem.num_communities)
+    # add a score to cities with more neighbours to produce better solutions for next part
+    scores = [0] * problem.num_communities
+    avg_neighbour_cnt = sum(len(x) for x in center_can_cover)/problem.num_communities
+    for i in range(len(scores)):
+        scores[i] = (len(center_can_cover[i]))/problem.num_communities * 10 # <-- maybe provides more numerical stability
+        #print(f'Score: {scores[i]}, neighbour: {len(feasible_ranges[i])}')
+    #input()
+
+
 
     print(f'Adding constraints')
-
-
+    Z = model.addVar()
+    print(f'C-1')
+    model.addConstr(
+        gp.quicksum(scores[i]*is_center[i] for i in range(problem.num_communities)) == Z
+    )
     # every city must be assigned to at least one center
     print(f'C0')
     for i in range(problem.num_communities):
@@ -331,31 +352,17 @@ def solve_capacity_removed_withz(problem: ProblemModel, max_radius, banned_sols 
         gp.quicksum(is_center[i] for i in range(problem.num_communities)) == problem.num_healthcenters
     )
     
-    # calculate city_maxes
-    print(f'C2')
-    for i in range(problem.num_communities):
-        node = problem.nodes[i]
-        feasible_points = feasible_ranges[i]
-        for j in feasible_points:
-            dist = node.population_size * node.dist_to(problem.nodes[j])
+    # Remove already done solutions
+    if baned_sols:
+        for banned_solution in banned_sols:
+            centers: List[PopulationNode] = banned_solution.centers
             model.addConstr(
-                city_max[i] >= dist*is_center[j]
+                gp.quicksum(is_center[c.index-1] for c in centers) <= len(centers) -1
             )
 
-    # Z is maximum of all maxes
-    print(f'C3')
-    for i in range(problem.num_communities):
-        model.addConstr(
-            city_max[i] <= Z
-        )
 
     print(f'Starting optimization...')
-
-    if lb:
-        model.addConstr(
-            Z >= lb, name='Lower_Bound'
-        )
-    model.setObjective(Z, GRB.MINIMIZE)
+    model.setObjective(Z, GRB.MAXIMIZE)
     model.optimize()
     if 1:
         if model.status == GRB.OPTIMAL:
@@ -373,7 +380,7 @@ def solve_capacity_removed_withz(problem: ProblemModel, max_radius, banned_sols 
                     assigned_cities[i].append(j)
             res = FirstSolution(assigned_cities, problem)
             res.print_sol()
-            print(f'Models objective Z={Z.X}')
+            print(f"Heuristic Z={Z.X}")
             return res
         else:
             print(f'No feasible solution found for r={max_radius}')

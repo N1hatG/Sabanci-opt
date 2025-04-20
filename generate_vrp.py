@@ -1,7 +1,7 @@
 import argparse
 from model import ProblemModel
 
-def generate_lkh3_vrp_file_from_solution(solution, instance_id: str, vehicle_capacity: int = 10000):
+def generate_lkh3_vrp_file_from_solution(solution, instance_id: str, vehicle_capacity: int = 10000, time_limit = None):
     output_path = f'solutions/{instance_id}/part2.vrp'
     depot_x, depot_y = solution.model.depot
     centers = solution.centers
@@ -33,7 +33,10 @@ def generate_lkh3_vrp_file_from_solution(solution, instance_id: str, vehicle_cap
     with open(output_path, "w") as f:
         f.write(content)
     with open(f'solutions/{instance_id}/part2.par', 'w+') as f:
-        f.write(f'PROBLEM_FILE = solutions/{instance_id}/part2.vrp\nTOUR_FILE = solutions/{instance_id}/tour.sol')
+        par_str = f'PROBLEM_FILE = solutions/{instance_id}/part2.vrp\nTOUR_FILE = solutions/{instance_id}/tour.sol\n'
+        if time_limit is not None:
+            par_str += f'TIME_LIMIT = {time_limit}'
+        f.write(par_str)
     print(f"✅ VRP file written to: {output_path}")
 
     return output_path
