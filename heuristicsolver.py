@@ -5,7 +5,7 @@ import CoveringSolver
 import generate_vrp
 instance_id = sys.argv[1]
 upper_bound = int(sys.argv[2])
-
+radius = upper_bound
 try:
     os.mkdir(f'solutions/{instance_id}')
 except Exception:
@@ -18,19 +18,12 @@ def run_lkh3(solution):
         sys.exit(1)
     print('LKH-3 successful. Parsing the results..')
     tours = generate_vrp.lkh3_sol_to_jagged(f'solutions/{instance_id}/tour.sol', model.num_healthcenters+1)
-    for tour in tours:
-        for i in range(len(tour)):
-            city_id = tour[i]-2
-            if city_id < 0:
-                print("Depot")
-            else:
-                print(solution.centers[city_id].index)
     depot = PopulationNode(0, model.depot, -1, -1)
     demands = [] 
     for c in solution.centers:
         demands.append(sum(city.population_size for city in solution.assigned_cities[c]))
     res_str = 'Stage-2:\n'
-    for i, tour in enumerate(tours):
+    for tour_num, tour in enumerate(tours):
         tot_dist = 0
         available_capacity = 10000
         str_tour = []
@@ -59,14 +52,14 @@ def run_lkh3(solution):
         if available_capacity < 0:
             print(f'Tour {i+1} is out of capacity')
             sys.exit()
-        res_str += f"""Route {i+1}: {' -> '.join(str_tour)}\n"""
+        res_str += f"""Route {tour_num+1}: {' -> '.join(str_tour)}\n"""
     res_str += f'Objective Value: {tot_dist}'
     print(f'Total distance: {tot_dist}')
     with open(f'solutions/{instance_id}/Sol_{instance_id}.txt', 'a') as f:
         f.write(res_str)
     print(f'Written to solutions/{instance_id}/Sol_{instance_id}.txt')
 
-    
+
 used_sols = []
 best_sol = None
 while 1:
@@ -86,7 +79,8 @@ while 1:
             should_save = True
         if should_save:
             solution.to_file(f'solutions/{instance_id}/Sol_{instance_id}.txt')
-            generate_vrp.generate_lkh3_vrp_file_from_solution(solution, instance_id)
+            generate_vrp.generate_lkh3_vrp_file_from_solution(solution, instance_id, time_limit='1')
+            run_lkh3(solution)
             
 
     used_sols.append(res)

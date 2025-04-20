@@ -59,7 +59,7 @@ demands = []
 for c in solution.centers:
     demands.append(sum(city.population_size for city in solution.assigned_cities[c]))
 res_str = 'Stage-2:\n'
-for i, tour in enumerate(tours):
+for tour_num, tour in enumerate(tours):
     tot_dist = 0
     available_capacity = 10000
     str_tour = []
@@ -86,9 +86,9 @@ for i, tour in enumerate(tours):
         sys.exit()
     str_tour.append('Depot')
     if available_capacity < 0:
-        print(f'Tour {i+1} is out of capacity')
+        print(f'Tour {tour_num+1} is out of capacity')
         sys.exit()
-    res_str += f"""Route {i+1}: {' -> '.join(str_tour)}\n"""
+    res_str += f"""Route {tour_num+1}: {' -> '.join(str_tour)}\n"""
 res_str += f'Objective Value: {tot_dist}'
 print(f'Total distance: {tot_dist}')
 with open(f'solutions/{instance_id}/Sol_{instance_id}.txt', 'a') as f:
