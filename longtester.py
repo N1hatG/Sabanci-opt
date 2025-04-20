@@ -17,6 +17,8 @@ except Exception:
 solution = None
 selected_radius = None
 r = 5000
+if len(sys.argv) > 2:
+    r = int(sys.argv[2])
 while 1:
     print(f"🔍 Trying radius = {r}")
     sol = CoveringSolver.solve_to_optimality(model, r)
