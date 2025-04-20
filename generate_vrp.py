@@ -1,5 +1,5 @@
 import argparse
-from model import ProblemModel
+from model import *
 
 def generate_lkh3_vrp_file_from_solution(solution, instance_id: str, vehicle_capacity: int = 10000, time_limit = None):
     output_path = f'solutions/{instance_id}/part2.vrp'
@@ -62,3 +62,14 @@ def lkh3_sol_to_jagged(sol_path, city_count):
         all_tours.append(curr_tour)
         curr_tour = [0]
     return(all_tours)
+
+def get_trivial_vrp(problem: ProblemModel, solution: FirstSolution, instance_id):
+    res = 'Stage-2:\n'
+    depot = PopulationNode(0, problem.depot, -1, -1)
+    tot_dist = 0
+    for i, center in enumerate(solution.centers):
+        res += f'Route {i+1}: Depot -> Healthcare at {center.index} -> Depot\n'
+        tot_dist += 2* depot.dist_to(center)
+    res += f'Objective Value: {tot_dist}'
+    with open(f'solutions/{instance_id}/Sol_{instance_id}.txt', 'a') as f:
+        f.write(res)

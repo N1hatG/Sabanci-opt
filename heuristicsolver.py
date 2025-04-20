@@ -80,7 +80,7 @@ while 1:
         if should_save:
             solution.to_file(f'solutions/{instance_id}/Sol_{instance_id}.txt')
             generate_vrp.generate_lkh3_vrp_file_from_solution(solution, instance_id, time_limit='1')
-            run_lkh3(solution)
+            generate_vrp.get_trivial_vrp(model, solution, instance_id)
             
 
     used_sols.append(res)

@@ -256,7 +256,7 @@ def solve_capacity_removed(problem: ProblemModel, max_radius, banned_sols = None
                 for j in center_can_cover[i]:
                     assigned_cities[i].append(j)
             res = FirstSolution(assigned_cities, problem)
-            res.print_sol()
+            #res.print_sol()
             return res
         else:
             print(f'No feasible solution found for r={max_radius}')
@@ -307,7 +307,6 @@ def solve_distribute_cities(curr_sol: FirstSolution):
         for i in range(problem.num_healthcenters):
             assigned_dict[curr_sol.centers[i]] = assigned_cities[i]
         new_sol = FirstSolution(assigned_dict, problem)
-        new_sol.print_sol()
         return new_sol
 
 def solve_capacity_removed_withz(problem: ProblemModel, max_radius, banned_sols = None):
@@ -379,7 +378,6 @@ def solve_capacity_removed_withz(problem: ProblemModel, max_radius, banned_sols 
                 for j in center_can_cover[i]:
                     assigned_cities[i].append(j)
             res = FirstSolution(assigned_cities, problem)
-            res.print_sol()
             print(f"Heuristic Z={Z.X}")
             return res
         else:
