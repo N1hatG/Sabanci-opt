@@ -1,0 +1,24 @@
+NAME : HealthcareRouting.11408.tour
+COMMENT : Length = 11408
+COMMENT : Found by LKH-3 [Keld Helsgaun] Sun Apr 20 17:39:56 2025
+TYPE : TOUR
+DIMENSION : 16
+TOUR_SECTION
+1
+2
+9
+13
+7
+4
+5
+3
+15
+6
+8
+11
+12
+14
+10
+16
+-1
+EOF

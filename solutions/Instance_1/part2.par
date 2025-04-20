@@ -1,0 +1,2 @@
+PROBLEM_FILE = solutions/Instance_1/part2.vrp
+TOUR_FILE = solutions/Instance_1/tour.sol
