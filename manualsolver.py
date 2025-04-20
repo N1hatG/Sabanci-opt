@@ -64,7 +64,8 @@ if len(sys.argv) > 3:
             sys.exit()
         str_tour.append('Depot')
         if available_capacity < 0:
-            print(f'Tour {tour_num+1} is out of capacity')
+            print(f'Tour {tour_num+1} is out of capacity, falling back to initial solution and exiting...')
+            generate_vrp.get_trivial_vrp(model, solution, instance_id)
             sys.exit()
         res_str += f"""Route {tour_num+1}: {' -> '.join(str_tour)}\n"""
     res_str += f'Objective Value: {tot_dist}'
