@@ -1,3 +1,0 @@
-PROBLEM_FILE = solutions/Instance_13/part2.vrp
-TOUR_FILE = solutions/Instance_13/tour.sol
-TIME_LIMIT = 1

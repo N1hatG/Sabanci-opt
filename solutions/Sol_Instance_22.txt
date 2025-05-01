@@ -1,0 +1,1005 @@
+Stage-1:
+Healthcenter deployed at 2: Communities Assigned = {632, 915, 1308, 1332, 1386, 1470, 1595, 1606, 1627, 1756, 1836, 1880, 1896, 1933, 1985, 2142, 2184, 2216, 2352, 2458, 2463, 2528, 2710, 2757}
+Healthcenter deployed at 3: Communities Assigned = {182, 810, 974, 989, 1085, 1136, 1527, 1541, 1931, 2141, 2230, 2269, 2291}
+Healthcenter deployed at 9: Communities Assigned = {376, 563, 1943, 1975, 2086, 2718}
+Healthcenter deployed at 18: Communities Assigned = {449, 509, 1001, 1211, 1835, 1853, 1968, 2195, 2590, 2593, 2666, 2752}
+Healthcenter deployed at 26: Communities Assigned = {518, 1188, 1229, 1817, 1833, 2152, 2178, 2369, 2775, 2916, 2933}
+Healthcenter deployed at 27: Communities Assigned = {1476, 1811, 1842, 1894, 2280, 2450, 2475, 2540, 2561, 2826, 2940}
+Healthcenter deployed at 28: Communities Assigned = {68, 975, 1647, 1659, 1966, 2063, 2130, 2174, 2408, 2471, 2473, 2754}
+Healthcenter deployed at 40: Communities Assigned = {40, 719, 1621, 1736, 2299, 2379, 2993}
+Healthcenter deployed at 47: Communities Assigned = {755, 1090, 1166, 1293, 1457, 2967}
+Healthcenter deployed at 50: Communities Assigned = {862, 981, 1612, 1657, 2333, 2538}
+Healthcenter deployed at 54: Communities Assigned = {312, 914, 1221, 1979, 2162, 2560, 2606}
+Healthcenter deployed at 59: Communities Assigned = {430, 681, 1608, 1652, 2402, 2576, 2829, 2865, 2937, 2992, 3000}
+Healthcenter deployed at 76: Communities Assigned = {576, 984, 1685, 1947, 1965, 2037, 2302}
+Healthcenter deployed at 82: Communities Assigned = {483, 579, 1111, 1864, 2203, 2474, 2692}
+Healthcenter deployed at 94: Communities Assigned = {41, 204, 955, 2396, 2575}
+Healthcenter deployed at 106: Communities Assigned = {585, 1354, 1879, 1998, 2245, 2321, 2327, 2365}
+Healthcenter deployed at 112: Communities Assigned = {367, 521, 644, 645, 711, 834, 883, 1052, 1494, 1495, 1793, 1893, 1944, 2058, 2429, 2905, 2972}
+Healthcenter deployed at 127: Communities Assigned = {390, 457, 1356, 1449, 1766, 1775, 2095}
+Healthcenter deployed at 128: Communities Assigned = {869, 1056, 1579, 2158, 2478, 2627}
+Healthcenter deployed at 131: Communities Assigned = {442, 1945, 2109, 2355, 2496, 2713}
+Healthcenter deployed at 137: Communities Assigned = {477, 482, 490, 1070, 1081, 1317, 1587, 1784, 2286, 2428, 2868, 2945}
+Healthcenter deployed at 141: Communities Assigned = {109, 1130, 1348, 1488, 1508, 2607}
+Healthcenter deployed at 157: Communities Assigned = {479, 511, 1952, 2067, 2341, 2709, 2777, 2817, 2925}
+Healthcenter deployed at 160: Communities Assigned = {192, 470, 606, 2296, 2506, 2946}
+Healthcenter deployed at 167: Communities Assigned = {424, 550, 1261, 1310, 1713, 2015, 2201}
+Healthcenter deployed at 172: Communities Assigned = {900, 1022, 1258, 1572, 1602, 1711, 2348, 2387, 2432, 2855}
+Healthcenter deployed at 185: Communities Assigned = {605, 789, 1075, 1531, 1538, 1954, 2044, 2099, 2197}
+Healthcenter deployed at 193: Communities Assigned = {269, 1345, 1424, 1562, 2146, 2404, 2892}
+Healthcenter deployed at 201: Communities Assigned = {201, 991, 1037, 1067, 1086, 1986, 2588}
+Healthcenter deployed at 212: Communities Assigned = {1937, 2271, 2507, 2578, 2788}
+Healthcenter deployed at 224: Communities Assigned = {236, 727, 1039, 2305, 2372, 2378, 2562, 2770}
+Healthcenter deployed at 237: Communities Assigned = {384, 704, 1179, 2006, 2065, 2183, 2787}
+Healthcenter deployed at 242: Communities Assigned = {508, 1347, 1412, 2138, 2398, 2979}
+Healthcenter deployed at 250: Communities Assigned = {528, 643, 954, 1380, 1671, 1814, 2335, 2747, 2796}
+Healthcenter deployed at 251: Communities Assigned = {251, 557, 742, 1753, 2648, 2995}
+Healthcenter deployed at 252: Communities Assigned = {537, 948, 1053, 1189, 1220, 1244, 1255, 1273, 1279, 1484, 1901, 1924, 2054, 2092, 2132, 2139, 2168, 2187, 2202, 2894}
+Healthcenter deployed at 257: Communities Assigned = {112, 763, 1371, 1687, 1816, 2225, 2635, 2798}
+Healthcenter deployed at 265: Communities Assigned = {753, 1510, 2223, 2241}
+Healthcenter deployed at 287: Communities Assigned = {282, 2314, 2679, 2821}
+Healthcenter deployed at 292: Communities Assigned = {218, 1212, 1936, 2638}
+Healthcenter deployed at 293: Communities Assigned = {1186, 1436, 1437, 1670, 2238, 2574}
+Healthcenter deployed at 294: Communities Assigned = {49, 683, 1375, 1422, 1478, 1524, 1566, 1589, 1646, 1746, 1890, 2047, 2439, 2914}
+Healthcenter deployed at 310: Communities Assigned = {162, 339, 1094, 1222, 1283, 2209, 2655}
+Healthcenter deployed at 311: Communities Assigned = {362, 985, 1140, 1932, 2456, 2539, 2573}
+Healthcenter deployed at 316: Communities Assigned = {92, 380, 2431, 2553}
+Healthcenter deployed at 317: Communities Assigned = {138, 1678, 1832, 1874, 2318, 2328, 2440, 2724, 2924}
+Healthcenter deployed at 320: Communities Assigned = {559, 865, 952, 1504, 2591}
+Healthcenter deployed at 322: Communities Assigned = {208, 688, 1458, 1738, 2571, 2909}
+Healthcenter deployed at 328: Communities Assigned = {316, 344, 2297, 2516}
+Healthcenter deployed at 335: Communities Assigned = {855, 1630, 2153, 2373, 2728, 2886}
+Healthcenter deployed at 339: Communities Assigned = {320, 1181, 1803, 2845}
+Healthcenter deployed at 345: Communities Assigned = {11, 721, 1935, 2211}
+Healthcenter deployed at 347: Communities Assigned = {1016, 2170, 2572, 2609, 2863, 2915, 2981}
+Healthcenter deployed at 353: Communities Assigned = {964, 2530, 2644, 2672, 2842, 2978}
+Healthcenter deployed at 369: Communities Assigned = {1133, 1573, 1591, 1701, 1859, 2966}
+Healthcenter deployed at 371: Communities Assigned = {1225, 1234, 1636, 2634, 2951}
+Healthcenter deployed at 372: Communities Assigned = {743, 1306, 1387, 1413, 1732, 2016, 2288, 2595}
+Healthcenter deployed at 379: Communities Assigned = {297, 691, 1324, 1690, 1850, 2841, 2953}
+Healthcenter deployed at 385: Communities Assigned = {716, 1028, 1046, 1154, 1543, 1590, 1888, 2161, 2279, 2421}
+Healthcenter deployed at 387: Communities Assigned = {1146, 1165, 1272, 2289, 2364, 2600, 2683, 2976}
+Healthcenter deployed at 390: Communities Assigned = {785, 1666, 2824, 2830, 2866}
+Healthcenter deployed at 411: Communities Assigned = {160, 525, 541, 614, 762, 872, 1329, 1411, 1581, 1785, 1797}
+Healthcenter deployed at 412: Communities Assigned = {897, 1047, 1207, 2166, 2249, 2508}
+Healthcenter deployed at 413: Communities Assigned = {120, 467, 1770, 2300, 2434}
+Healthcenter deployed at 430: Communities Assigned = {1418, 1672, 1910, 2060, 2176}
+Healthcenter deployed at 433: Communities Assigned = {373, 784, 1752, 2306, 2584}
+Healthcenter deployed at 437: Communities Assigned = {14, 38, 465, 950, 1210, 1267, 2226}
+Healthcenter deployed at 445: Communities Assigned = {375, 1319, 1993, 1999, 2046, 2828}
+Healthcenter deployed at 449: Communities Assigned = {3, 289, 335, 861, 1167, 1172, 1819, 2213, 2621, 2794}
+Healthcenter deployed at 451: Communities Assigned = {538, 1653, 1800, 1820, 1922, 2023, 2930}
+Healthcenter deployed at 452: Communities Assigned = {856, 1325, 1486, 2281, 2514}
+Healthcenter deployed at 454: Communities Assigned = {768, 963, 1011, 1043, 1120, 1535, 2360, 2488, 2714}
+Healthcenter deployed at 458: Communities Assigned = {127, 1577, 1858, 2039, 2326, 2494, 2594}
+Healthcenter deployed at 461: Communities Assigned = {47, 229, 231, 1489, 2353, 2959}
+Healthcenter deployed at 464: Communities Assigned = {817, 1520, 1868, 2068}
+Healthcenter deployed at 469: Communities Assigned = {226, 1213, 1343, 1640, 1958, 2301, 2800}
+Healthcenter deployed at 488: Communities Assigned = {598, 2164, 2570, 2637, 2961}
+Healthcenter deployed at 493: Communities Assigned = {115, 318, 383, 580, 1425, 1443, 1847, 2122, 2194, 2214, 2837}
+Healthcenter deployed at 498: Communities Assigned = {675, 1126, 1691, 2255, 2416, 2510}
+Healthcenter deployed at 501: Communities Assigned = {60, 243, 427, 1219, 1368, 1446, 1686}
+Healthcenter deployed at 512: Communities Assigned = {512, 919, 1005, 1145, 1312, 1410, 1588, 1658, 2200}
+Healthcenter deployed at 517: Communities Assigned = {395, 562, 631, 1102, 1301, 2832}
+Healthcenter deployed at 518: Communities Assigned = {2309, 2468, 2582, 2986}
+Healthcenter deployed at 533: Communities Assigned = {174, 967, 1169, 1444, 1598, 1991}
+Healthcenter deployed at 535: Communities Assigned = {169, 555, 696, 1485, 1948}
+Healthcenter deployed at 536: Communities Assigned = {34, 404, 468, 536, 2442, 2623, 2853}
+Healthcenter deployed at 548: Communities Assigned = {599, 641, 697, 736, 831, 977, 1296, 1333, 1851}
+Healthcenter deployed at 551: Communities Assigned = {326, 392, 417, 754, 1017, 2809, 2838}
+Healthcenter deployed at 553: Communities Assigned = {25, 228, 232, 440, 523, 1121, 1942, 2376, 2443, 2776, 2812, 2971, 2990, 2996}
+Healthcenter deployed at 568: Communities Assigned = {247, 529, 568, 589, 591, 2642, 2783}
+Healthcenter deployed at 569: Communities Assigned = {596, 1547, 2079, 2347, 2491, 2736, 2779, 2843}
+Healthcenter deployed at 571: Communities Assigned = {73, 292, 2706, 2860}
+Healthcenter deployed at 583: Communities Assigned = {140, 705, 1959, 1992, 2466, 2548, 2712}
+Healthcenter deployed at 585: Communities Assigned = {168, 436, 564, 806, 1110, 1697, 2231}
+Healthcenter deployed at 592: Communities Assigned = {503, 592, 1051, 1178, 2247}
+Healthcenter deployed at 598: Communities Assigned = {1209, 1224, 1395, 1441, 2711}
+Healthcenter deployed at 601: Communities Assigned = {135, 1245, 1622, 1794}
+Healthcenter deployed at 605: Communities Assigned = {1628, 1983, 2407, 2620}
+Healthcenter deployed at 608: Communities Assigned = {266, 1540, 1663, 1843, 1951, 2028, 2050, 2107, 2149, 2221, 2455}
+Healthcenter deployed at 612: Communities Assigned = {198, 1173, 1307, 2033, 2248, 2470}
+Healthcenter deployed at 622: Communities Assigned = {272, 1582, 1715, 1912, 2243}
+Healthcenter deployed at 623: Communities Assigned = {221, 751, 1108, 1183}
+Healthcenter deployed at 625: Communities Assigned = {381, 671, 1860, 2566, 2670}
+Healthcenter deployed at 629: Communities Assigned = {329, 394, 497, 1040, 1123, 1262, 1264, 1498, 1679, 1905, 2102, 2144, 2261, 2705}
+Healthcenter deployed at 630: Communities Assigned = {230, 749, 1841, 2273, 2444, 2836}
+Healthcenter deployed at 632: Communities Assigned = {560, 656, 1610, 1744, 1904, 1941, 2090}
+Healthcenter deployed at 634: Communities Assigned = {181, 793, 1519, 1813, 1957, 2524, 2653}
+Healthcenter deployed at 640: Communities Assigned = {480, 1162, 1761, 1897}
+Healthcenter deployed at 642: Communities Assigned = {690, 846, 1248, 1618, 1976, 2120, 2552, 2700}
+Healthcenter deployed at 643: Communities Assigned = {1295, 2411, 2597, 2613}
+Healthcenter deployed at 644: Communities Assigned = {271, 729, 1450, 1465}
+Healthcenter deployed at 657: Communities Assigned = {790, 1278, 1994, 2581, 2693}
+Healthcenter deployed at 662: Communities Assigned = {487, 1322, 1772, 2059, 2674, 2755, 2834}
+Healthcenter deployed at 665: Communities Assigned = {783, 842, 1502, 1576, 1616, 2003, 2502, 2676}
+Healthcenter deployed at 667: Communities Assigned = {398, 969, 1024, 1318, 2541, 2825, 2950, 2984}
+Healthcenter deployed at 670: Communities Assigned = {433, 633, 1363, 2435, 2680, 2906}
+Healthcenter deployed at 674: Communities Assigned = {412, 738, 780, 1073, 1124, 1142, 1184, 1787}
+Healthcenter deployed at 685: Communities Assigned = {740, 778, 1226, 1254}
+Healthcenter deployed at 686: Communities Assigned = {652, 717, 932, 1362, 1394, 1571}
+Healthcenter deployed at 687: Communities Assigned = {199, 379, 2513, 2822, 2851}
+Healthcenter deployed at 688: Communities Assigned = {16, 527, 1125, 2808}
+Healthcenter deployed at 696: Communities Assigned = {207, 259, 333, 532, 1720, 2284, 2633}
+Healthcenter deployed at 711: Communities Assigned = {485, 682, 912, 1523, 2640}
+Healthcenter deployed at 712: Communities Assigned = {772, 826, 857, 979, 1113, 1655, 1982}
+Healthcenter deployed at 716: Communities Assigned = {342, 929, 2237, 2922}
+Healthcenter deployed at 725: Communities Assigned = {725, 1079, 1187, 2343}
+Healthcenter deployed at 726: Communities Assigned = {761, 1176, 2340, 2367, 2390, 2395, 2438, 2531, 2616, 2659, 2665, 2677}
+Healthcenter deployed at 731: Communities Assigned = {904, 1116, 1734, 2038, 2885, 2958}
+Healthcenter deployed at 732: Communities Assigned = {18, 114, 732, 1419, 2536, 2857}
+Healthcenter deployed at 734: Communities Assigned = {2, 309, 1400, 1929, 1996, 2811}
+Healthcenter deployed at 736: Communities Assigned = {237, 421, 956, 1231, 1280, 2414}
+Healthcenter deployed at 738: Communities Assigned = {175, 445, 674, 962, 1337, 1673, 2698, 2818, 2899}
+Healthcenter deployed at 741: Communities Assigned = {502, 1326, 1754, 2256}
+Healthcenter deployed at 742: Communities Assigned = {1463, 1700, 1806, 2081, 2608}
+Healthcenter deployed at 749: Communities Assigned = {1065, 1316, 1980, 2935, 2955}
+Healthcenter deployed at 762: Communities Assigned = {1764, 1967, 2739, 2780, 2891}
+Healthcenter deployed at 764: Communities Assigned = {443, 886, 1042, 1366, 1435}
+Healthcenter deployed at 771: Communities Assigned = {262, 771, 899, 905, 945, 953, 1359, 1451, 1475, 2632}
+Healthcenter deployed at 780: Communities Assigned = {827, 1021, 1114, 1215, 2505}
+Healthcenter deployed at 785: Communities Assigned = {188, 246, 461, 1705, 2051}
+Healthcenter deployed at 795: Communities Assigned = {507, 543, 594, 604, 1098, 1103, 1549, 2888}
+Healthcenter deployed at 810: Communities Assigned = {166, 1012, 1331, 2654, 2864, 2923}
+Healthcenter deployed at 823: Communities Assigned = {1834, 2206, 2601, 2734}
+Healthcenter deployed at 826: Communities Assigned = {113, 369, 1228, 1392, 1747, 2820}
+Healthcenter deployed at 827: Communities Assigned = {129, 214, 1615, 2244}
+Healthcenter deployed at 833: Communities Assigned = {431, 475, 608, 1023, 1559, 2557}
+Healthcenter deployed at 848: Communities Assigned = {1311, 2113, 2669, 2673, 2690, 2956}
+Healthcenter deployed at 851: Communities Assigned = {54, 248, 961, 1334, 1352}
+Healthcenter deployed at 854: Communities Assigned = {145, 252, 636, 854, 1217, 2171, 2332}
+Healthcenter deployed at 866: Communities Assigned = {539, 759, 1193, 1680, 1773, 2521}
+Healthcenter deployed at 878: Communities Assigned = {164, 213, 510, 597, 653, 2485, 2781}
+Healthcenter deployed at 879: Communities Assigned = {360, 505, 767, 1062, 1107, 2697}
+Healthcenter deployed at 884: Communities Assigned = {361, 446, 710, 882, 1426, 1918, 2196}
+Healthcenter deployed at 888: Communities Assigned = {888, 1000, 1748, 2088, 2400}
+Healthcenter deployed at 891: Communities Assigned = {172, 1564, 2743, 2819, 2875}
+Healthcenter deployed at 905: Communities Assigned = {346, 569, 2105, 2675}
+Healthcenter deployed at 908: Communities Assigned = {1327, 1830, 1911, 2140, 2344, 2716, 2784}
+Healthcenter deployed at 909: Communities Assigned = {1045, 1064, 1203, 1856, 2339, 2459}
+Healthcenter deployed at 916: Communities Assigned = {588, 1427, 1468, 1529}
+Healthcenter deployed at 917: Communities Assigned = {1191, 1447, 1454, 1554, 1707, 2823, 2957}
+Healthcenter deployed at 953: Communities Assigned = {294, 992, 995, 1117, 1137, 1237, 1558, 1909, 2927}
+Healthcenter deployed at 960: Communities Assigned = {1780, 2075, 2519, 2569, 2764}
+Healthcenter deployed at 986: Communities Assigned = {1277, 1978, 2049, 2125, 2330, 2550}
+Healthcenter deployed at 989: Communities Assigned = {253, 551, 692, 993, 1038, 1373, 2014, 2551}
+Healthcenter deployed at 990: Communities Assigned = {990, 1551, 1961, 2910}
+Healthcenter deployed at 993: Communities Assigned = {1, 447, 800, 1068, 1533, 2756}
+Healthcenter deployed at 996: Communities Assigned = {37, 756, 1180, 1223, 1428}
+Healthcenter deployed at 998: Communities Assigned = {177, 859, 2135, 2263, 2740}
+Healthcenter deployed at 1001: Communities Assigned = {1249, 1623, 2012, 2738}
+Healthcenter deployed at 1010: Communities Assigned = {96, 818, 1517, 1751, 2323, 2596}
+Healthcenter deployed at 1013: Communities Assigned = {90, 240, 441, 837, 1338, 1601, 2583}
+Healthcenter deployed at 1031: Communities Assigned = {689, 996, 1956, 2874}
+Healthcenter deployed at 1034: Communities Assigned = {245, 267, 646, 1539, 2159, 2703}
+Healthcenter deployed at 1035: Communities Assigned = {223, 303, 351, 1035, 1779}
+Healthcenter deployed at 1036: Communities Assigned = {185, 414, 452, 667, 824, 1861}
+Healthcenter deployed at 1043: Communities Assigned = {558, 724, 1109, 2630, 2852}
+Healthcenter deployed at 1058: Communities Assigned = {795, 1881, 2267, 2598}
+Healthcenter deployed at 1065: Communities Assigned = {275, 545, 746, 944, 1560, 2029}
+Healthcenter deployed at 1074: Communities Assigned = {48, 556, 694, 978, 1409, 2024}
+Healthcenter deployed at 1077: Communities Assigned = {78, 469, 726, 1077, 2338, 2658}
+Healthcenter deployed at 1082: Communities Assigned = {290, 654, 668, 796, 2636, 2688}
+Healthcenter deployed at 1093: Communities Assigned = {24, 471, 548, 838, 898, 1796, 2258}
+Healthcenter deployed at 1099: Communities Assigned = {1757, 1865, 1934, 2002, 2208, 2660}
+Healthcenter deployed at 1105: Communities Assigned = {474, 937, 1876, 2413, 2617, 2684}
+Healthcenter deployed at 1106: Communities Assigned = {70, 731, 864, 1346, 1355, 1518}
+Healthcenter deployed at 1109: Communities Assigned = {901, 1550, 1637, 2252, 2282}
+Healthcenter deployed at 1113: Communities Assigned = {287, 429, 577, 1104, 1722, 2250, 2292, 2746}
+Healthcenter deployed at 1141: Communities Assigned = {405, 407, 1141, 2089, 2694, 2982}
+Healthcenter deployed at 1150: Communities Assigned = {217, 239, 2190, 2307, 2542}
+Healthcenter deployed at 1155: Communities Assigned = {661, 807, 936, 1298, 1370, 1432, 1487, 1634, 2436}
+Healthcenter deployed at 1157: Communities Assigned = {574, 1185, 1810, 1989, 2650, 2895}
+Healthcenter deployed at 1158: Communities Assigned = {75, 133, 286, 387, 399, 1002, 1014}
+Healthcenter deployed at 1162: Communities Assigned = {273, 1032, 1625, 2410}
+Healthcenter deployed at 1163: Communities Assigned = {105, 400, 935, 1265, 1805}
+Healthcenter deployed at 1168: Communities Assigned = {419, 572, 1157, 1390}
+Healthcenter deployed at 1175: Communities Assigned = {6, 496, 593, 2354, 2391}
+Healthcenter deployed at 1176: Communities Assigned = {1358, 1855, 1908, 2022, 2294, 2681}
+Healthcenter deployed at 1177: Communities Assigned = {602, 701, 1008, 1177, 1420, 2021, 2078}
+Healthcenter deployed at 1186: Communities Assigned = {323, 1049, 1445, 2123, 2753, 2844}
+Healthcenter deployed at 1193: Communities Assigned = {765, 1050, 1160, 1197, 1619, 1750, 2351, 2729}
+Healthcenter deployed at 1198: Communities Assigned = {1091, 1309, 1461, 1699, 1760, 2233}
+Healthcenter deployed at 1216: Communities Assigned = {458, 1216, 1574, 1791, 2137}
+Healthcenter deployed at 1230: Communities Assigned = {52, 413, 1638, 1971, 2810}
+Healthcenter deployed at 1231: Communities Assigned = {553, 1854, 2559, 2771, 2870}
+Healthcenter deployed at 1242: Communities Assigned = {760, 1007, 1599, 2682}
+Healthcenter deployed at 1266: Communities Assigned = {102, 777, 1009, 1460, 2143}
+Healthcenter deployed at 1271: Communities Assigned = {565, 739, 1438, 2156}
+Healthcenter deployed at 1276: Communities Assigned = {9, 146, 408, 634, 971, 2489, 2989}
+Healthcenter deployed at 1281: Communities Assigned = {125, 1592, 1656, 2052, 2717, 2758}
+Healthcenter deployed at 1285: Communities Assigned = {244, 486, 1351, 2268, 2295}
+Healthcenter deployed at 1294: Communities Assigned = {55, 638, 1013, 1260, 1274, 2165}
+Healthcenter deployed at 1296: Communities Assigned = {5, 410, 1092, 1719, 1970, 2308}
+Healthcenter deployed at 1297: Communities Assigned = {51, 693, 782, 871, 1238, 1297, 2298}
+Healthcenter deployed at 1309: Communities Assigned = {82, 147, 409, 1762, 2091, 2453}
+Healthcenter deployed at 1312: Communities Assigned = {93, 454, 611, 660, 1469}
+Healthcenter deployed at 1315: Communities Assigned = {278, 845, 1938, 2628, 2741, 2827}
+Healthcenter deployed at 1316: Communities Assigned = {171, 520, 1031, 2094}
+Healthcenter deployed at 1329: Communities Assigned = {124, 1826, 1974, 2018, 2100, 2577, 2604}
+Healthcenter deployed at 1332: Communities Assigned = {609, 916, 1712, 2240, 2317}
+Healthcenter deployed at 1345: Communities Assigned = {95, 193, 621, 957, 1057, 1199, 1501, 1778, 1808, 2839}
+Healthcenter deployed at 1353: Communities Assigned = {1341, 1479, 1726, 2329, 2587}
+Healthcenter deployed at 1361: Communities Assigned = {960, 1131, 2371, 2430}
+Healthcenter deployed at 1369: Communities Assigned = {42, 627, 819, 1170, 1626}
+Healthcenter deployed at 1371: Communities Assigned = {257, 370, 635, 1781}
+Healthcenter deployed at 1385: Communities Assigned = {58, 84, 306, 340, 939, 1100, 1101}
+Healthcenter deployed at 1387: Communities Assigned = {450, 876, 907, 1240, 1946, 2932}
+Healthcenter deployed at 1390: Communities Assigned = {330, 1275, 1552, 2881}
+Healthcenter deployed at 1394: Communities Assigned = {752, 847, 1134, 1776, 1871, 2652}
+Healthcenter deployed at 1398: Communities Assigned = {571, 1473, 2270, 2465, 2599, 2661, 2768}
+Healthcenter deployed at 1400: Communities Assigned = {1252, 1743, 2731}
+Healthcenter deployed at 1406: Communities Assigned = {23, 254, 980, 1396, 2409, 2912}
+Healthcenter deployed at 1420: Communities Assigned = {136, 317, 583, 913, 1624, 1889, 2349}
+Healthcenter deployed at 1424: Communities Assigned = {141, 310, 938, 1152, 1456, 1809}
+Healthcenter deployed at 1425: Communities Assigned = {149, 296, 1276, 1335, 2383, 2504, 2547}
+Healthcenter deployed at 1428: Communities Assigned = {167, 341, 647, 1717, 2774}
+Healthcenter deployed at 1430: Communities Assigned = {1078, 1096, 1742, 2835}
+Healthcenter deployed at 1433: Communities Assigned = {1480, 1823, 2147, 2401, 2685}
+Healthcenter deployed at 1434: Communities Assigned = {428, 522, 863, 880, 1792, 2622}
+Healthcenter deployed at 1436: Communities Assigned = {144, 587, 612, 770, 1168, 2913}
+Healthcenter deployed at 1467: Communities Assigned = {908, 1439, 1511, 2177, 2744, 2884}
+Healthcenter deployed at 1474: Communities Assigned = {119, 128, 703, 1923, 2104, 2960}
+Healthcenter deployed at 1483: Communities Assigned = {39, 250, 1048, 1537, 2877}
+Healthcenter deployed at 1492: Communities Assigned = {29, 116, 481, 649, 775, 1080, 1127}
+Healthcenter deployed at 1493: Communities Assigned = {425, 533, 1093, 2127, 2325, 2509}
+Healthcenter deployed at 1495: Communities Assigned = {85, 549, 1369, 1383, 1593}
+Healthcenter deployed at 1496: Communities Assigned = {20, 32, 64, 385, 626, 1257, 1414, 2077}
+Healthcenter deployed at 1513: Communities Assigned = {91, 476, 1534, 2191, 2388}
+Healthcenter deployed at 1518: Communities Assigned = {178, 1382, 1730, 1972}
+Healthcenter deployed at 1520: Communities Assigned = {1481, 1600, 2071, 2983}
+Healthcenter deployed at 1522: Communities Assigned = {268, 374, 832, 1060, 1243, 2495}
+Healthcenter deployed at 1525: Communities Assigned = {203, 1525, 2645, 2954, 2968}
+Healthcenter deployed at 1534: Communities Assigned = {699, 890, 1464, 1509, 2361, 2441}
+Healthcenter deployed at 1544: Communities Assigned = {1583, 1763, 1900, 2356, 2647}
+Healthcenter deployed at 1549: Communities Assigned = {216, 305, 586, 684}
+Healthcenter deployed at 1557: Communities Assigned = {88, 624, 728, 1557}
+Healthcenter deployed at 1563: Communities Assigned = {617, 715, 1442, 1649, 2614}
+Healthcenter deployed at 1565: Communities Assigned = {1423, 1474, 2151, 2259}
+Healthcenter deployed at 1578: Communities Assigned = {219, 848, 1578}
+Healthcenter deployed at 1586: Communities Assigned = {83, 1586, 2374, 2732, 2813}
+Healthcenter deployed at 1587: Communities Assigned = {322, 959, 983, 1493, 1882, 2073, 2422}
+Healthcenter deployed at 1592: Communities Assigned = {238, 241, 1281, 2629}
+Healthcenter deployed at 1601: Communities Assigned = {10, 889, 2008, 2898, 2908}
+Healthcenter deployed at 1614: Communities Assigned = {195, 234, 308, 567, 909}
+Healthcenter deployed at 1620: Communities Assigned = {139, 304, 2072, 2217, 2689}
+Healthcenter deployed at 1621: Communities Assigned = {270, 544, 666, 712, 1063, 2386}
+Healthcenter deployed at 1622: Communities Assigned = {332, 805, 923, 970, 2009}
+Healthcenter deployed at 1628: Communities Assigned = {669, 1095, 1675, 2101, 2451, 2549}
+Healthcenter deployed at 1634: Communities Assigned = {161, 401, 578, 1506, 1758, 2380, 2949}
+Healthcenter deployed at 1635: Communities Assigned = {17, 57, 86, 473, 1973, 2034, 2605}
+Healthcenter deployed at 1637: Communities Assigned = {835, 949, 1003, 1364, 2869}
+Healthcenter deployed at 1639: Communities Assigned = {76, 365, 695, 735, 741, 804, 1027, 1639, 1694, 2426, 2445}
+Healthcenter deployed at 1641: Communities Assigned = {463, 663, 2418, 2790, 2999}
+Healthcenter deployed at 1643: Communities Assigned = {573, 639, 758, 852, 1643, 2558, 2751}
+Healthcenter deployed at 1652: Communities Assigned = {61, 183, 415, 1545, 2749}
+Healthcenter deployed at 1659: Communities Assigned = {30, 130, 973, 1906}
+Healthcenter deployed at 1660: Communities Assigned = {1139, 1812, 1849, 1886}
+Healthcenter deployed at 1664: Communities Assigned = {2204, 2251, 2403, 2952}
+Healthcenter deployed at 1669: Communities Assigned = {45, 345, 354, 1804, 1987}
+Healthcenter deployed at 1670: Communities Assigned = {227, 1147, 1877, 2087, 2131, 2897}
+Healthcenter deployed at 1686: Communities Assigned = {43, 499, 540, 829, 943, 1620}
+Healthcenter deployed at 1689: Communities Assigned = {131, 1010, 1683, 2193}
+Healthcenter deployed at 1700: Communities Assigned = {256, 274, 1718, 1955, 2725, 2814}
+Healthcenter deployed at 1706: Communities Assigned = {348, 2084, 2096, 2384}
+Healthcenter deployed at 1707: Communities Assigned = {72, 355, 1303, 1313, 1899, 2264}
+Healthcenter deployed at 1713: Communities Assigned = {1921, 2585, 2733, 2890}
+Healthcenter deployed at 1726: Communities Assigned = {148, 179, 920, 1353}
+Healthcenter deployed at 1728: Communities Assigned = {176, 619, 2180, 2785}
+Healthcenter deployed at 1737: Communities Assigned = {261, 299, 921, 1253, 1737, 2121}
+Healthcenter deployed at 1742: Communities Assigned = {104, 264, 1076, 1344}
+Healthcenter deployed at 1751: Communities Assigned = {101, 378, 530, 657, 999, 1018, 1058, 1122, 2656}
+Healthcenter deployed at 1759: Communities Assigned = {331, 366, 844, 1194, 1466, 1759}
+Healthcenter deployed at 1768: Communities Assigned = {363, 411, 673, 698, 1768}
+Healthcenter deployed at 1790: Communities Assigned = {1019, 1304, 1641}
+Healthcenter deployed at 1806: Communities Assigned = {71, 196, 709, 1453, 1597}
+Healthcenter deployed at 1825: Communities Assigned = {315, 1365, 1407, 2816}
+Healthcenter deployed at 1826: Communities Assigned = {99, 295, 1247, 1491, 2406}
+Healthcenter deployed at 1829: Communities Assigned = {191, 2234, 2370, 2518}
+Healthcenter deployed at 1830: Communities Assigned = {74, 235, 284, 2207, 2889}
+Healthcenter deployed at 1833: Communities Assigned = {26, 377, 2179, 2887}
+Healthcenter deployed at 1836: Communities Assigned = {170, 347, 582, 1118, 1689}
+Healthcenter deployed at 1844: Communities Assigned = {435, 1292, 1585, 2567, 2801}
+Healthcenter deployed at 1850: Communities Assigned = {1036, 1195, 1417, 1915}
+Healthcenter deployed at 1855: Communities Assigned = {205, 291, 456, 459, 1208}
+Healthcenter deployed at 1863: Communities Assigned = {27, 388, 951, 1580, 2331}
+Healthcenter deployed at 1866: Communities Assigned = {298, 422, 1163, 2359, 2671}
+Healthcenter deployed at 1870: Communities Assigned = {321, 1033, 1682, 1749, 1839}
+Healthcenter deployed at 1872: Communities Assigned = {222, 1709, 1733, 1872, 2918}
+Healthcenter deployed at 1873: Communities Assigned = {225, 514, 1613}
+Healthcenter deployed at 1874: Communities Assigned = {12, 98, 197, 434, 1471, 1681}
+Healthcenter deployed at 1875: Communities Assigned = {31, 66, 89, 255, 343}
+Healthcenter deployed at 1876: Communities Assigned = {152, 595, 1645, 2449, 2848}
+Healthcenter deployed at 1883: Communities Assigned = {108, 142, 190, 350, 432, 451, 462, 737, 1774}
+Healthcenter deployed at 1889: Communities Assigned = {156, 547, 1004, 2108}
+Healthcenter deployed at 1898: Communities Assigned = {356, 439, 1389, 2185, 2481, 2735}
+Healthcenter deployed at 1905: Communities Assigned = {21, 460, 941, 2663, 2871}
+Healthcenter deployed at 1912: Communities Assigned = {622, 1300, 1644, 2173}
+Healthcenter deployed at 1918: Communities Assigned = {153, 184, 352, 386, 492, 526, 590, 720, 801, 1563, 1729, 1799, 1840, 1887, 2013, 2189, 2239, 2424, 2448, 2678, 2883, 2893}
+Healthcenter deployed at 1937: Communities Assigned = {628, 1405, 1462, 1903}
+Healthcenter deployed at 1946: Communities Assigned = {546, 1584, 1914, 2040, 2287, 2903}
+Healthcenter deployed at 1951: Communities Assigned = {280, 437, 466, 535, 561, 584, 603, 610, 686, 708, 774, 833, 853, 873, 1044, 1898, 2602, 2766, 2792, 2804, 2805, 2879, 2970}
+Healthcenter deployed at 1960: Communities Assigned = {123, 1727, 1920, 2057}
+Healthcenter deployed at 1974: Communities Assigned = {552, 881, 1196, 1259, 1821, 2219}
+Healthcenter deployed at 1978: Communities Assigned = {62, 397, 1230, 1406, 2026}
+Healthcenter deployed at 1979: Communities Assigned = {233, 808, 1138, 2840}
+Healthcenter deployed at 1988: Communities Assigned = {927, 946, 1723, 1988, 2148}
+Healthcenter deployed at 1996: Communities Assigned = {797, 1291, 1677}
+Healthcenter deployed at 2003: Communities Assigned = {513, 665, 748, 802}
+Healthcenter deployed at 2013: Communities Assigned = {478, 1777, 1822, 2928, 2994}
+Healthcenter deployed at 2021: Communities Assigned = {77, 324, 1716, 2346}
+Healthcenter deployed at 2022: Communities Assigned = {19, 50, 616, 629, 830, 2061}
+Healthcenter deployed at 2024: Communities Assigned = {489, 493, 570, 926, 976, 1398}
+Healthcenter deployed at 2054: Communities Assigned = {126, 328, 769, 1790, 2076, 2236, 2977}
+Healthcenter deployed at 2055: Communities Assigned = {1604, 1735}
+Healthcenter deployed at 2056: Communities Assigned = {103, 110, 111, 358, 965, 1026}
+Healthcenter deployed at 2060: Communities Assigned = {766, 815, 1285, 1553, 1607, 2357}
+Healthcenter deployed at 2070: Communities Assigned = {154, 672, 922, 1112, 2375}
+Healthcenter deployed at 2075: Communities Assigned = {263, 327, 1321, 2767}
+Healthcenter deployed at 2095: Communities Assigned = {80, 613, 798, 1115}
+Healthcenter deployed at 2103: Communities Assigned = {730, 1401, 1594, 2069, 2103, 2293}
+Healthcenter deployed at 2113: Communities Assigned = {664, 1232, 1286, 1440, 1782, 1845, 2254, 2274, 2511, 2523, 2662, 2921, 2939, 2997}
+Healthcenter deployed at 2114: Communities Assigned = {903, 1202, 1204, 2114}
+Healthcenter deployed at 2120: Communities Assigned = {368, 1555, 2182, 2499}
+Healthcenter deployed at 2130: Communities Assigned = {28, 1831, 2253, 2537}
+Healthcenter deployed at 2134: Communities Assigned = {189, 488, 1105, 1698}
+Healthcenter deployed at 2136: Communities Assigned = {187, 867, 2136, 2985}
+Healthcenter deployed at 2141: Communities Assigned = {22, 285, 1403, 2487}
+Healthcenter deployed at 2160: Communities Assigned = {1448, 1565, 2160, 2257, 2759, 2934}
+Healthcenter deployed at 2166: Communities Assigned = {313, 1034, 1530, 1829, 2030, 2517}
+Healthcenter deployed at 2169: Communities Assigned = {59, 438, 757, 816, 924, 1299, 2169, 2382}
+Healthcenter deployed at 2172: Communities Assigned = {885, 1200, 1940, 2172}
+Healthcenter deployed at 2182: Communities Assigned = {642, 1059, 1939, 2532}
+Healthcenter deployed at 2194: Communities Assigned = {210, 1201, 1513, 2544, 2850}
+Healthcenter deployed at 2196: Communities Assigned = {877, 1892}
+Healthcenter deployed at 2201: Communities Assigned = {211, 839, 1250, 1455, 1837}
+Healthcenter deployed at 2206: Communities Assigned = {288, 947, 1668, 1964}
+Healthcenter deployed at 2208: Communities Assigned = {500, 1603, 2611, 2715}
+Healthcenter deployed at 2210: Communities Assigned = {69, 1802, 2000, 2070, 2278}
+Healthcenter deployed at 2225: Communities Assigned = {393, 1891, 2412, 2433, 2618}
+Healthcenter deployed at 2228: Communities Assigned = {134, 158, 722, 940, 1662, 2228}
+Healthcenter deployed at 2230: Communities Assigned = {132, 1288, 2696, 2742}
+Healthcenter deployed at 2242: Communities Assigned = {779, 787, 997, 1330, 1433, 1499, 1724}
+Healthcenter deployed at 2246: Communities Assigned = {224, 311, 1161, 1710, 2522}
+Healthcenter deployed at 2248: Communities Assigned = {307, 426, 1061, 1270, 1919, 2806}
+Healthcenter deployed at 2250: Communities Assigned = {143, 718, 1128, 2062}
+Healthcenter deployed at 2252: Communities Assigned = {206, 662, 2454, 2592}
+Healthcenter deployed at 2255: Communities Assigned = {575, 601, 1294, 1916, 2116}
+Healthcenter deployed at 2265: Communities Assigned = {1129, 1205, 1402, 2265, 2501}
+Healthcenter deployed at 2267: Communities Assigned = {402, 403, 607, 1269, 2721, 2737}
+Healthcenter deployed at 2274: Communities Assigned = {276, 918, 1846, 2157, 2975}
+Healthcenter deployed at 2278: Communities Assigned = {157, 820, 1381, 2417, 2936}
+Healthcenter deployed at 2289: Communities Assigned = {670, 745, 1158, 1795, 2275}
+Healthcenter deployed at 2299: Communities Assigned = {67, 1289, 2036, 2461, 2503, 2651, 2750, 2920, 2941}
+Healthcenter deployed at 2301: Communities Assigned = {1150, 1360, 1452, 1544}
+Healthcenter deployed at 2304: Communities Assigned = {44, 851, 1119, 2304, 2862}
+Healthcenter deployed at 2309: Communities Assigned = {279, 747, 764, 1848, 2134}
+Healthcenter deployed at 2314: Communities Assigned = {13, 65, 215, 416, 680}
+Healthcenter deployed at 2318: Communities Assigned = {1071, 1148, 1302, 1635}
+Healthcenter deployed at 2319: Communities Assigned = {36, 893, 1741, 2212, 2319}
+Healthcenter deployed at 2322: Communities Assigned = {773, 1765, 2005, 2720, 2876}
+Healthcenter deployed at 2324: Communities Assigned = {163, 448, 1087, 2324}
+Healthcenter deployed at 2326: Communities Assigned = {258, 723, 750, 1349, 1828, 2320, 2358}
+Healthcenter deployed at 2327: Communities Assigned = {534, 655, 2110, 2420}
+Healthcenter deployed at 2339: Communities Assigned = {186, 337, 1171, 1175, 1472, 2778}
+Healthcenter deployed at 2343: Communities Assigned = {792, 2097, 2846, 2849}
+Healthcenter deployed at 2345: Communities Assigned = {494, 531, 1192, 2117, 2220}
+Healthcenter deployed at 2346: Communities Assigned = {495, 1927, 1981, 2035, 2118, 2315, 2726, 2963}
+Healthcenter deployed at 2347: Communities Assigned = {159, 173, 277, 910, 925, 1870, 2074}
+Healthcenter deployed at 2353: Communities Assigned = {685, 706, 1378, 1684}
+Healthcenter deployed at 2361: Communities Assigned = {87, 968, 1072, 1251, 1367, 2266}
+Healthcenter deployed at 2376: Communities Assigned = {1379, 1399, 1490, 1857, 2762}
+Healthcenter deployed at 2380: Communities Assigned = {517, 1650, 1692, 1984}
+Healthcenter deployed at 2392: Communities Assigned = {648, 1393, 2392, 2419, 2586}
+Healthcenter deployed at 2394: Communities Assigned = {7, 97, 637, 1336, 2011}
+Healthcenter deployed at 2411: Communities Assigned = {998, 1703, 2119, 2482}
+Healthcenter deployed at 2424: Communities Assigned = {8, 209, 391, 734, 1852}
+Healthcenter deployed at 2431: Communities Assigned = {336, 1388, 1512, 2467}
+Healthcenter deployed at 2432: Communities Assigned = {94, 406, 1384, 2085, 2124, 2702}
+Healthcenter deployed at 2438: Communities Assigned = {4, 803, 2695, 2867}
+Healthcenter deployed at 2448: Communities Assigned = {118, 866, 933, 1536, 2303, 2555}
+Healthcenter deployed at 2456: Communities Assigned = {359, 581, 1706, 1731, 2163, 2175, 2847}
+Healthcenter deployed at 2457: Communities Assigned = {1323, 2457, 2802}
+Healthcenter deployed at 2459: Communities Assigned = {702, 1174, 1567, 2668}
+Healthcenter deployed at 2464: Communities Assigned = {658, 1372, 2017, 2025}
+Healthcenter deployed at 2470: Communities Assigned = {293, 300, 334, 2363, 2782}
+Healthcenter deployed at 2486: Communities Assigned = {301, 1431, 1514, 1755, 2007, 2929}
+Healthcenter deployed at 2488: Communities Assigned = {1704, 1769, 1863, 2064, 2128, 2397}
+Healthcenter deployed at 2492: Communities Assigned = {151, 1156, 1198, 1708, 2469}
+Healthcenter deployed at 2495: Communities Assigned = {524, 678, 1246, 2748}
+Healthcenter deployed at 2498: Communities Assigned = {202, 1132, 1575, 2224, 2500}
+Healthcenter deployed at 2507: Communities Assigned = {212, 849, 986, 1482, 1728, 2998}
+Healthcenter deployed at 2522: Communities Assigned = {283, 676, 911, 1714, 1824, 2902, 2948, 2974}
+Healthcenter deployed at 2529: Communities Assigned = {79, 1342, 1629, 2619, 2938}
+Healthcenter deployed at 2530: Communities Assigned = {353, 1315, 1789, 2154, 2515, 2534, 2546}
+Healthcenter deployed at 2533: Communities Assigned = {200, 781, 1069, 2896}
+Healthcenter deployed at 2539: Communities Assigned = {491, 615, 1516, 1926, 2350, 2769}
+Healthcenter deployed at 2542: Communities Assigned = {107, 1642, 2334, 2641}
+Healthcenter deployed at 2548: Communities Assigned = {106, 1320, 1404, 1459, 1925}
+Healthcenter deployed at 2551: Communities Assigned = {455, 860, 2041, 2362, 2480, 2687, 2815}
+Healthcenter deployed at 2553: Communities Assigned = {515, 1164, 2691, 2987}
+Healthcenter deployed at 2566: Communities Assigned = {249, 260, 554, 623, 625, 1960}
+Healthcenter deployed at 2569: Communities Assigned = {1236, 1284, 1361, 1467, 1483, 1505, 2797, 2854, 2856, 2991}
+Healthcenter deployed at 2581: Communities Assigned = {382, 1786, 1953, 2462, 2723}
+Healthcenter deployed at 2584: Communities Assigned = {1074, 2129, 2385, 2493, 2708}
+Healthcenter deployed at 2587: Communities Assigned = {840, 931, 958, 1083, 1528, 1702, 2962}
+Healthcenter deployed at 2598: Communities Assigned = {707, 2001, 2947}
+Healthcenter deployed at 2607: Communities Assigned = {389, 892, 1151, 1314, 2512}
+Healthcenter deployed at 2611: Communities Assigned = {791, 799, 1082, 1099, 1825, 2907}
+Healthcenter deployed at 2612: Communities Assigned = {651, 2083, 2612, 2615}
+Healthcenter deployed at 2618: Communities Assigned = {349, 1159, 2056, 2377}
+Healthcenter deployed at 2621: Communities Assigned = {501, 1430, 1521, 1873, 2793}
+Healthcenter deployed at 2625: Communities Assigned = {180, 1376, 1878, 1969, 2032}
+Healthcenter deployed at 2639: Communities Assigned = {165, 1696, 1875, 2639}
+Healthcenter deployed at 2643: Communities Assigned = {630, 1144, 1838, 2053}
+Healthcenter deployed at 2644: Communities Assigned = {713, 850, 1569, 2310, 2730, 2973}
+Healthcenter deployed at 2650: Communities Assigned = {794, 1500, 1695, 2336, 2452, 2919}
+Healthcenter deployed at 2655: Communities Assigned = {357, 843, 902, 2447}
+Healthcenter deployed at 2671: Communities Assigned = {371, 813, 1548, 2218, 2283}
+Healthcenter deployed at 2673: Communities Assigned = {812, 1963, 2106, 2198, 2579}
+Healthcenter deployed at 2679: Communities Assigned = {420, 825, 942, 1214, 1218, 2545}
+Healthcenter deployed at 2686: Communities Assigned = {618, 894, 1055, 1374, 1895, 2643}
+Healthcenter deployed at 2688: Communities Assigned = {896, 1421, 1434, 1669, 2316}
+Healthcenter deployed at 2705: Communities Assigned = {600, 875, 982, 1088, 2181}
+Healthcenter deployed at 2709: Communities Assigned = {887, 1143, 1305, 1415, 1883, 2235, 2543}
+Healthcenter deployed at 2735: Communities Assigned = {423, 687, 2399, 2520, 2701, 2858}
+Healthcenter deployed at 2754: Communities Assigned = {81, 155, 1233, 2045, 2242}
+Healthcenter deployed at 2755: Communities Assigned = {117, 809, 836, 1290, 1542}
+Healthcenter deployed at 2756: Communities Assigned = {650, 1025, 1106, 2042, 2490}
+Healthcenter deployed at 2758: Communities Assigned = {314, 878, 884, 1807, 2393, 2446, 2901}
+Healthcenter deployed at 2759: Communities Assigned = {1674, 1913, 1977, 2004, 2155, 2464, 2477, 2965}
+Healthcenter deployed at 2765: Communities Assigned = {472, 519, 934, 2199, 2290, 2795}
+Healthcenter deployed at 2773: Communities Assigned = {121, 122, 150, 874, 1408, 2055, 2773, 2833}
+Healthcenter deployed at 2774: Communities Assigned = {302, 1507, 1648, 1783, 2649, 2943}
+Healthcenter deployed at 2786: Communities Assigned = {700, 1664, 2019, 2786}
+Healthcenter deployed at 2789: Communities Assigned = {35, 1815}
+Healthcenter deployed at 2792: Communities Assigned = {828, 1015, 1227, 2010, 2111, 2554}
+Healthcenter deployed at 2803: Communities Assigned = {1235, 1667, 2246, 2476, 2707, 2803}
+Healthcenter deployed at 2807: Communities Assigned = {1990, 2188, 2460, 2533, 2807}
+Healthcenter deployed at 2819: Communities Assigned = {891, 2043, 2150, 2526, 2624}
+Healthcenter deployed at 2823: Communities Assigned = {453, 1190, 1357, 1515, 1688, 1693}
+Healthcenter deployed at 2825: Communities Assigned = {733, 895, 1397, 2486, 2492, 2859}
+Healthcenter deployed at 2831: Communities Assigned = {659, 1089, 1631, 1801, 2167, 2210, 2763}
+Healthcenter deployed at 2839: Communities Assigned = {194, 338, 620, 2626}
+Healthcenter deployed at 2841: Communities Assigned = {504, 1798, 2603, 2765}
+Healthcenter deployed at 2846: Communities Assigned = {372, 418, 677, 1097, 1350, 1609, 1661, 1902, 1930, 2381}
+Healthcenter deployed at 2853: Communities Assigned = {15, 1020, 2479, 2727, 2745}
+Healthcenter deployed at 2856: Communities Assigned = {63, 364, 484, 1546, 1568, 1788, 2610}
+Healthcenter deployed at 2857: Communities Assigned = {137, 822, 988, 2311, 2368}
+Healthcenter deployed at 2862: Communities Assigned = {100, 776, 1153, 1477, 1503, 1818, 2215, 2260, 2563, 2568, 2580, 2667}
+Healthcenter deployed at 2863: Communities Assigned = {966, 1385, 2048, 2789}
+Healthcenter deployed at 2867: Communities Assigned = {1149, 1605, 1869, 2366, 2472}
+Healthcenter deployed at 2870: Communities Assigned = {319, 1962, 2112, 2405, 2988}
+Healthcenter deployed at 2872: Communities Assigned = {744, 2232, 2484, 2527, 2664, 2831, 2872}
+Healthcenter deployed at 2873: Communities Assigned = {281, 841, 2556, 2873}
+Healthcenter deployed at 2876: Communities Assigned = {972, 1266, 2285, 2322, 2483, 2699, 2942}
+Healthcenter deployed at 2877: Communities Assigned = {566, 788, 2222, 2345, 2931}
+Healthcenter deployed at 2878: Communities Assigned = {821, 1328, 1496, 1556, 1617, 1632, 2878}
+Healthcenter deployed at 2880: Communities Assigned = {1928, 1995, 1997, 2229, 2394, 2498, 2880}
+Healthcenter deployed at 2904: Communities Assigned = {46, 542, 786, 1182, 2722}
+Healthcenter deployed at 2910: Communities Assigned = {714, 1239, 1561, 1633, 1949}
+Healthcenter deployed at 2915: Communities Assigned = {994, 1084, 1725, 1827, 1844}
+Healthcenter deployed at 2917: Communities Assigned = {220, 506, 917, 1054, 1340, 2027, 2917}
+Healthcenter deployed at 2920: Communities Assigned = {1242, 1268, 2020, 2126, 2262}
+Healthcenter deployed at 2921: Communities Assigned = {1391, 1907, 2098, 2272, 2337, 2342, 2631, 2900, 2904}
+Healthcenter deployed at 2922: Communities Assigned = {265, 814, 1611, 2093, 2192}
+Healthcenter deployed at 2934: Communities Assigned = {823, 1206, 1263, 1660, 1721, 1740, 1884, 2313, 2719, 2761}
+Healthcenter deployed at 2936: Communities Assigned = {242, 1676, 2205, 2529, 2704, 2969}
+Healthcenter deployed at 2937: Communities Assigned = {53, 870, 906, 1429, 2657}
+Healthcenter deployed at 2939: Communities Assigned = {33, 1256, 2066, 2425, 2911}
+Healthcenter deployed at 2945: Communities Assigned = {928, 930, 2145, 2312, 2415, 2564}
+Healthcenter deployed at 2951: Communities Assigned = {396, 1532, 1866, 2080, 2799}
+Healthcenter deployed at 2956: Communities Assigned = {679, 858, 1570, 1917, 2276, 2437}
+Healthcenter deployed at 2965: Communities Assigned = {1614, 1739, 1885, 1950, 2525, 2882}
+Healthcenter deployed at 2966: Communities Assigned = {1241, 1271, 1416, 1492, 1497, 1862, 2791, 2861, 2980}
+Healthcenter deployed at 2981: Communities Assigned = {640, 1029, 2423, 2535, 2646, 2686, 2760}
+Healthcenter deployed at 2983: Communities Assigned = {444, 464, 1135, 2589, 2772}
+Healthcenter deployed at 2984: Communities Assigned = {879, 987, 1030, 1041, 1066, 1155, 1526, 2115}
+Healthcenter deployed at 2990: Communities Assigned = {325, 498, 1006, 1282, 1596, 2031, 2082, 2133, 2186, 2427, 2926, 2944, 2964}
+Healthcenter deployed at 2992: Communities Assigned = {1287, 1339, 1522, 1651, 1665, 1771, 2497}
+Healthcenter deployed at 2993: Communities Assigned = {811, 1377, 1654, 1745, 1867, 2227, 2277}
+Healthcenter deployed at 2994: Communities Assigned = {56, 516, 868, 1767, 2389, 2565, 2625}
+Objective Value: 14748.126152159128
+
+Stage-2:
+Route 1: Depot -> Healthcare at 2 -> Depot
+Route 2: Depot -> Healthcare at 3 -> Depot
+Route 3: Depot -> Healthcare at 9 -> Depot
+Route 4: Depot -> Healthcare at 18 -> Depot
+Route 5: Depot -> Healthcare at 26 -> Depot
+Route 6: Depot -> Healthcare at 27 -> Depot
+Route 7: Depot -> Healthcare at 28 -> Depot
+Route 8: Depot -> Healthcare at 40 -> Depot
+Route 9: Depot -> Healthcare at 47 -> Depot
+Route 10: Depot -> Healthcare at 50 -> Depot
+Route 11: Depot -> Healthcare at 54 -> Depot
+Route 12: Depot -> Healthcare at 59 -> Depot
+Route 13: Depot -> Healthcare at 76 -> Depot
+Route 14: Depot -> Healthcare at 82 -> Depot
+Route 15: Depot -> Healthcare at 94 -> Depot
+Route 16: Depot -> Healthcare at 106 -> Depot
+Route 17: Depot -> Healthcare at 112 -> Depot
+Route 18: Depot -> Healthcare at 127 -> Depot
+Route 19: Depot -> Healthcare at 128 -> Depot
+Route 20: Depot -> Healthcare at 131 -> Depot
+Route 21: Depot -> Healthcare at 137 -> Depot
+Route 22: Depot -> Healthcare at 141 -> Depot
+Route 23: Depot -> Healthcare at 157 -> Depot
+Route 24: Depot -> Healthcare at 160 -> Depot
+Route 25: Depot -> Healthcare at 167 -> Depot
+Route 26: Depot -> Healthcare at 172 -> Depot
+Route 27: Depot -> Healthcare at 185 -> Depot
+Route 28: Depot -> Healthcare at 193 -> Depot
+Route 29: Depot -> Healthcare at 201 -> Depot
+Route 30: Depot -> Healthcare at 212 -> Depot
+Route 31: Depot -> Healthcare at 224 -> Depot
+Route 32: Depot -> Healthcare at 237 -> Depot
+Route 33: Depot -> Healthcare at 242 -> Depot
+Route 34: Depot -> Healthcare at 250 -> Depot
+Route 35: Depot -> Healthcare at 251 -> Depot
+Route 36: Depot -> Healthcare at 252 -> Depot
+Route 37: Depot -> Healthcare at 257 -> Depot
+Route 38: Depot -> Healthcare at 265 -> Depot
+Route 39: Depot -> Healthcare at 287 -> Depot
+Route 40: Depot -> Healthcare at 292 -> Depot
+Route 41: Depot -> Healthcare at 293 -> Depot
+Route 42: Depot -> Healthcare at 294 -> Depot
+Route 43: Depot -> Healthcare at 310 -> Depot
+Route 44: Depot -> Healthcare at 311 -> Depot
+Route 45: Depot -> Healthcare at 316 -> Depot
+Route 46: Depot -> Healthcare at 317 -> Depot
+Route 47: Depot -> Healthcare at 320 -> Depot
+Route 48: Depot -> Healthcare at 322 -> Depot
+Route 49: Depot -> Healthcare at 328 -> Depot
+Route 50: Depot -> Healthcare at 335 -> Depot
+Route 51: Depot -> Healthcare at 339 -> Depot
+Route 52: Depot -> Healthcare at 345 -> Depot
+Route 53: Depot -> Healthcare at 347 -> Depot
+Route 54: Depot -> Healthcare at 353 -> Depot
+Route 55: Depot -> Healthcare at 369 -> Depot
+Route 56: Depot -> Healthcare at 371 -> Depot
+Route 57: Depot -> Healthcare at 372 -> Depot
+Route 58: Depot -> Healthcare at 379 -> Depot
+Route 59: Depot -> Healthcare at 385 -> Depot
+Route 60: Depot -> Healthcare at 387 -> Depot
+Route 61: Depot -> Healthcare at 390 -> Depot
+Route 62: Depot -> Healthcare at 411 -> Depot
+Route 63: Depot -> Healthcare at 412 -> Depot
+Route 64: Depot -> Healthcare at 413 -> Depot
+Route 65: Depot -> Healthcare at 430 -> Depot
+Route 66: Depot -> Healthcare at 433 -> Depot
+Route 67: Depot -> Healthcare at 437 -> Depot
+Route 68: Depot -> Healthcare at 445 -> Depot
+Route 69: Depot -> Healthcare at 449 -> Depot
+Route 70: Depot -> Healthcare at 451 -> Depot
+Route 71: Depot -> Healthcare at 452 -> Depot
+Route 72: Depot -> Healthcare at 454 -> Depot
+Route 73: Depot -> Healthcare at 458 -> Depot
+Route 74: Depot -> Healthcare at 461 -> Depot
+Route 75: Depot -> Healthcare at 464 -> Depot
+Route 76: Depot -> Healthcare at 469 -> Depot
+Route 77: Depot -> Healthcare at 488 -> Depot
+Route 78: Depot -> Healthcare at 493 -> Depot
+Route 79: Depot -> Healthcare at 498 -> Depot
+Route 80: Depot -> Healthcare at 501 -> Depot
+Route 81: Depot -> Healthcare at 512 -> Depot
+Route 82: Depot -> Healthcare at 517 -> Depot
+Route 83: Depot -> Healthcare at 518 -> Depot
+Route 84: Depot -> Healthcare at 533 -> Depot
+Route 85: Depot -> Healthcare at 535 -> Depot
+Route 86: Depot -> Healthcare at 536 -> Depot
+Route 87: Depot -> Healthcare at 548 -> Depot
+Route 88: Depot -> Healthcare at 551 -> Depot
+Route 89: Depot -> Healthcare at 553 -> Depot
+Route 90: Depot -> Healthcare at 568 -> Depot
+Route 91: Depot -> Healthcare at 569 -> Depot
+Route 92: Depot -> Healthcare at 571 -> Depot
+Route 93: Depot -> Healthcare at 583 -> Depot
+Route 94: Depot -> Healthcare at 585 -> Depot
+Route 95: Depot -> Healthcare at 592 -> Depot
+Route 96: Depot -> Healthcare at 598 -> Depot
+Route 97: Depot -> Healthcare at 601 -> Depot
+Route 98: Depot -> Healthcare at 605 -> Depot
+Route 99: Depot -> Healthcare at 608 -> Depot
+Route 100: Depot -> Healthcare at 612 -> Depot
+Route 101: Depot -> Healthcare at 622 -> Depot
+Route 102: Depot -> Healthcare at 623 -> Depot
+Route 103: Depot -> Healthcare at 625 -> Depot
+Route 104: Depot -> Healthcare at 629 -> Depot
+Route 105: Depot -> Healthcare at 630 -> Depot
+Route 106: Depot -> Healthcare at 632 -> Depot
+Route 107: Depot -> Healthcare at 634 -> Depot
+Route 108: Depot -> Healthcare at 640 -> Depot
+Route 109: Depot -> Healthcare at 642 -> Depot
+Route 110: Depot -> Healthcare at 643 -> Depot
+Route 111: Depot -> Healthcare at 644 -> Depot
+Route 112: Depot -> Healthcare at 657 -> Depot
+Route 113: Depot -> Healthcare at 662 -> Depot
+Route 114: Depot -> Healthcare at 665 -> Depot
+Route 115: Depot -> Healthcare at 667 -> Depot
+Route 116: Depot -> Healthcare at 670 -> Depot
+Route 117: Depot -> Healthcare at 674 -> Depot
+Route 118: Depot -> Healthcare at 685 -> Depot
+Route 119: Depot -> Healthcare at 686 -> Depot
+Route 120: Depot -> Healthcare at 687 -> Depot
+Route 121: Depot -> Healthcare at 688 -> Depot
+Route 122: Depot -> Healthcare at 696 -> Depot
+Route 123: Depot -> Healthcare at 711 -> Depot
+Route 124: Depot -> Healthcare at 712 -> Depot
+Route 125: Depot -> Healthcare at 716 -> Depot
+Route 126: Depot -> Healthcare at 725 -> Depot
+Route 127: Depot -> Healthcare at 726 -> Depot
+Route 128: Depot -> Healthcare at 731 -> Depot
+Route 129: Depot -> Healthcare at 732 -> Depot
+Route 130: Depot -> Healthcare at 734 -> Depot
+Route 131: Depot -> Healthcare at 736 -> Depot
+Route 132: Depot -> Healthcare at 738 -> Depot
+Route 133: Depot -> Healthcare at 741 -> Depot
+Route 134: Depot -> Healthcare at 742 -> Depot
+Route 135: Depot -> Healthcare at 749 -> Depot
+Route 136: Depot -> Healthcare at 762 -> Depot
+Route 137: Depot -> Healthcare at 764 -> Depot
+Route 138: Depot -> Healthcare at 771 -> Depot
+Route 139: Depot -> Healthcare at 780 -> Depot
+Route 140: Depot -> Healthcare at 785 -> Depot
+Route 141: Depot -> Healthcare at 795 -> Depot
+Route 142: Depot -> Healthcare at 810 -> Depot
+Route 143: Depot -> Healthcare at 823 -> Depot
+Route 144: Depot -> Healthcare at 826 -> Depot
+Route 145: Depot -> Healthcare at 827 -> Depot
+Route 146: Depot -> Healthcare at 833 -> Depot
+Route 147: Depot -> Healthcare at 848 -> Depot
+Route 148: Depot -> Healthcare at 851 -> Depot
+Route 149: Depot -> Healthcare at 854 -> Depot
+Route 150: Depot -> Healthcare at 866 -> Depot
+Route 151: Depot -> Healthcare at 878 -> Depot
+Route 152: Depot -> Healthcare at 879 -> Depot
+Route 153: Depot -> Healthcare at 884 -> Depot
+Route 154: Depot -> Healthcare at 888 -> Depot
+Route 155: Depot -> Healthcare at 891 -> Depot
+Route 156: Depot -> Healthcare at 905 -> Depot
+Route 157: Depot -> Healthcare at 908 -> Depot
+Route 158: Depot -> Healthcare at 909 -> Depot
+Route 159: Depot -> Healthcare at 916 -> Depot
+Route 160: Depot -> Healthcare at 917 -> Depot
+Route 161: Depot -> Healthcare at 953 -> Depot
+Route 162: Depot -> Healthcare at 960 -> Depot
+Route 163: Depot -> Healthcare at 986 -> Depot
+Route 164: Depot -> Healthcare at 989 -> Depot
+Route 165: Depot -> Healthcare at 990 -> Depot
+Route 166: Depot -> Healthcare at 993 -> Depot
+Route 167: Depot -> Healthcare at 996 -> Depot
+Route 168: Depot -> Healthcare at 998 -> Depot
+Route 169: Depot -> Healthcare at 1001 -> Depot
+Route 170: Depot -> Healthcare at 1010 -> Depot
+Route 171: Depot -> Healthcare at 1013 -> Depot
+Route 172: Depot -> Healthcare at 1031 -> Depot
+Route 173: Depot -> Healthcare at 1034 -> Depot
+Route 174: Depot -> Healthcare at 1035 -> Depot
+Route 175: Depot -> Healthcare at 1036 -> Depot
+Route 176: Depot -> Healthcare at 1043 -> Depot
+Route 177: Depot -> Healthcare at 1058 -> Depot
+Route 178: Depot -> Healthcare at 1065 -> Depot
+Route 179: Depot -> Healthcare at 1074 -> Depot
+Route 180: Depot -> Healthcare at 1077 -> Depot
+Route 181: Depot -> Healthcare at 1082 -> Depot
+Route 182: Depot -> Healthcare at 1093 -> Depot
+Route 183: Depot -> Healthcare at 1099 -> Depot
+Route 184: Depot -> Healthcare at 1105 -> Depot
+Route 185: Depot -> Healthcare at 1106 -> Depot
+Route 186: Depot -> Healthcare at 1109 -> Depot
+Route 187: Depot -> Healthcare at 1113 -> Depot
+Route 188: Depot -> Healthcare at 1141 -> Depot
+Route 189: Depot -> Healthcare at 1150 -> Depot
+Route 190: Depot -> Healthcare at 1155 -> Depot
+Route 191: Depot -> Healthcare at 1157 -> Depot
+Route 192: Depot -> Healthcare at 1158 -> Depot
+Route 193: Depot -> Healthcare at 1162 -> Depot
+Route 194: Depot -> Healthcare at 1163 -> Depot
+Route 195: Depot -> Healthcare at 1168 -> Depot
+Route 196: Depot -> Healthcare at 1175 -> Depot
+Route 197: Depot -> Healthcare at 1176 -> Depot
+Route 198: Depot -> Healthcare at 1177 -> Depot
+Route 199: Depot -> Healthcare at 1186 -> Depot
+Route 200: Depot -> Healthcare at 1193 -> Depot
+Route 201: Depot -> Healthcare at 1198 -> Depot
+Route 202: Depot -> Healthcare at 1216 -> Depot
+Route 203: Depot -> Healthcare at 1230 -> Depot
+Route 204: Depot -> Healthcare at 1231 -> Depot
+Route 205: Depot -> Healthcare at 1242 -> Depot
+Route 206: Depot -> Healthcare at 1266 -> Depot
+Route 207: Depot -> Healthcare at 1271 -> Depot
+Route 208: Depot -> Healthcare at 1276 -> Depot
+Route 209: Depot -> Healthcare at 1281 -> Depot
+Route 210: Depot -> Healthcare at 1285 -> Depot
+Route 211: Depot -> Healthcare at 1294 -> Depot
+Route 212: Depot -> Healthcare at 1296 -> Depot
+Route 213: Depot -> Healthcare at 1297 -> Depot
+Route 214: Depot -> Healthcare at 1309 -> Depot
+Route 215: Depot -> Healthcare at 1312 -> Depot
+Route 216: Depot -> Healthcare at 1315 -> Depot
+Route 217: Depot -> Healthcare at 1316 -> Depot
+Route 218: Depot -> Healthcare at 1329 -> Depot
+Route 219: Depot -> Healthcare at 1332 -> Depot
+Route 220: Depot -> Healthcare at 1345 -> Depot
+Route 221: Depot -> Healthcare at 1353 -> Depot
+Route 222: Depot -> Healthcare at 1361 -> Depot
+Route 223: Depot -> Healthcare at 1369 -> Depot
+Route 224: Depot -> Healthcare at 1371 -> Depot
+Route 225: Depot -> Healthcare at 1385 -> Depot
+Route 226: Depot -> Healthcare at 1387 -> Depot
+Route 227: Depot -> Healthcare at 1390 -> Depot
+Route 228: Depot -> Healthcare at 1394 -> Depot
+Route 229: Depot -> Healthcare at 1398 -> Depot
+Route 230: Depot -> Healthcare at 1400 -> Depot
+Route 231: Depot -> Healthcare at 1406 -> Depot
+Route 232: Depot -> Healthcare at 1420 -> Depot
+Route 233: Depot -> Healthcare at 1424 -> Depot
+Route 234: Depot -> Healthcare at 1425 -> Depot
+Route 235: Depot -> Healthcare at 1428 -> Depot
+Route 236: Depot -> Healthcare at 1430 -> Depot
+Route 237: Depot -> Healthcare at 1433 -> Depot
+Route 238: Depot -> Healthcare at 1434 -> Depot
+Route 239: Depot -> Healthcare at 1436 -> Depot
+Route 240: Depot -> Healthcare at 1467 -> Depot
+Route 241: Depot -> Healthcare at 1474 -> Depot
+Route 242: Depot -> Healthcare at 1483 -> Depot
+Route 243: Depot -> Healthcare at 1492 -> Depot
+Route 244: Depot -> Healthcare at 1493 -> Depot
+Route 245: Depot -> Healthcare at 1495 -> Depot
+Route 246: Depot -> Healthcare at 1496 -> Depot
+Route 247: Depot -> Healthcare at 1513 -> Depot
+Route 248: Depot -> Healthcare at 1518 -> Depot
+Route 249: Depot -> Healthcare at 1520 -> Depot
+Route 250: Depot -> Healthcare at 1522 -> Depot
+Route 251: Depot -> Healthcare at 1525 -> Depot
+Route 252: Depot -> Healthcare at 1534 -> Depot
+Route 253: Depot -> Healthcare at 1544 -> Depot
+Route 254: Depot -> Healthcare at 1549 -> Depot
+Route 255: Depot -> Healthcare at 1557 -> Depot
+Route 256: Depot -> Healthcare at 1563 -> Depot
+Route 257: Depot -> Healthcare at 1565 -> Depot
+Route 258: Depot -> Healthcare at 1578 -> Depot
+Route 259: Depot -> Healthcare at 1586 -> Depot
+Route 260: Depot -> Healthcare at 1587 -> Depot
+Route 261: Depot -> Healthcare at 1592 -> Depot
+Route 262: Depot -> Healthcare at 1601 -> Depot
+Route 263: Depot -> Healthcare at 1614 -> Depot
+Route 264: Depot -> Healthcare at 1620 -> Depot
+Route 265: Depot -> Healthcare at 1621 -> Depot
+Route 266: Depot -> Healthcare at 1622 -> Depot
+Route 267: Depot -> Healthcare at 1628 -> Depot
+Route 268: Depot -> Healthcare at 1634 -> Depot
+Route 269: Depot -> Healthcare at 1635 -> Depot
+Route 270: Depot -> Healthcare at 1637 -> Depot
+Route 271: Depot -> Healthcare at 1639 -> Depot
+Route 272: Depot -> Healthcare at 1641 -> Depot
+Route 273: Depot -> Healthcare at 1643 -> Depot
+Route 274: Depot -> Healthcare at 1652 -> Depot
+Route 275: Depot -> Healthcare at 1659 -> Depot
+Route 276: Depot -> Healthcare at 1660 -> Depot
+Route 277: Depot -> Healthcare at 1664 -> Depot
+Route 278: Depot -> Healthcare at 1669 -> Depot
+Route 279: Depot -> Healthcare at 1670 -> Depot
+Route 280: Depot -> Healthcare at 1686 -> Depot
+Route 281: Depot -> Healthcare at 1689 -> Depot
+Route 282: Depot -> Healthcare at 1700 -> Depot
+Route 283: Depot -> Healthcare at 1706 -> Depot
+Route 284: Depot -> Healthcare at 1707 -> Depot
+Route 285: Depot -> Healthcare at 1713 -> Depot
+Route 286: Depot -> Healthcare at 1726 -> Depot
+Route 287: Depot -> Healthcare at 1728 -> Depot
+Route 288: Depot -> Healthcare at 1737 -> Depot
+Route 289: Depot -> Healthcare at 1742 -> Depot
+Route 290: Depot -> Healthcare at 1751 -> Depot
+Route 291: Depot -> Healthcare at 1759 -> Depot
+Route 292: Depot -> Healthcare at 1768 -> Depot
+Route 293: Depot -> Healthcare at 1790 -> Depot
+Route 294: Depot -> Healthcare at 1806 -> Depot
+Route 295: Depot -> Healthcare at 1825 -> Depot
+Route 296: Depot -> Healthcare at 1826 -> Depot
+Route 297: Depot -> Healthcare at 1829 -> Depot
+Route 298: Depot -> Healthcare at 1830 -> Depot
+Route 299: Depot -> Healthcare at 1833 -> Depot
+Route 300: Depot -> Healthcare at 1836 -> Depot
+Route 301: Depot -> Healthcare at 1844 -> Depot
+Route 302: Depot -> Healthcare at 1850 -> Depot
+Route 303: Depot -> Healthcare at 1855 -> Depot
+Route 304: Depot -> Healthcare at 1863 -> Depot
+Route 305: Depot -> Healthcare at 1866 -> Depot
+Route 306: Depot -> Healthcare at 1870 -> Depot
+Route 307: Depot -> Healthcare at 1872 -> Depot
+Route 308: Depot -> Healthcare at 1873 -> Depot
+Route 309: Depot -> Healthcare at 1874 -> Depot
+Route 310: Depot -> Healthcare at 1875 -> Depot
+Route 311: Depot -> Healthcare at 1876 -> Depot
+Route 312: Depot -> Healthcare at 1883 -> Depot
+Route 313: Depot -> Healthcare at 1889 -> Depot
+Route 314: Depot -> Healthcare at 1898 -> Depot
+Route 315: Depot -> Healthcare at 1905 -> Depot
+Route 316: Depot -> Healthcare at 1912 -> Depot
+Route 317: Depot -> Healthcare at 1918 -> Depot
+Route 318: Depot -> Healthcare at 1937 -> Depot
+Route 319: Depot -> Healthcare at 1946 -> Depot
+Route 320: Depot -> Healthcare at 1951 -> Depot
+Route 321: Depot -> Healthcare at 1960 -> Depot
+Route 322: Depot -> Healthcare at 1974 -> Depot
+Route 323: Depot -> Healthcare at 1978 -> Depot
+Route 324: Depot -> Healthcare at 1979 -> Depot
+Route 325: Depot -> Healthcare at 1988 -> Depot
+Route 326: Depot -> Healthcare at 1996 -> Depot
+Route 327: Depot -> Healthcare at 2003 -> Depot
+Route 328: Depot -> Healthcare at 2013 -> Depot
+Route 329: Depot -> Healthcare at 2021 -> Depot
+Route 330: Depot -> Healthcare at 2022 -> Depot
+Route 331: Depot -> Healthcare at 2024 -> Depot
+Route 332: Depot -> Healthcare at 2054 -> Depot
+Route 333: Depot -> Healthcare at 2055 -> Depot
+Route 334: Depot -> Healthcare at 2056 -> Depot
+Route 335: Depot -> Healthcare at 2060 -> Depot
+Route 336: Depot -> Healthcare at 2070 -> Depot
+Route 337: Depot -> Healthcare at 2075 -> Depot
+Route 338: Depot -> Healthcare at 2095 -> Depot
+Route 339: Depot -> Healthcare at 2103 -> Depot
+Route 340: Depot -> Healthcare at 2113 -> Depot
+Route 341: Depot -> Healthcare at 2114 -> Depot
+Route 342: Depot -> Healthcare at 2120 -> Depot
+Route 343: Depot -> Healthcare at 2130 -> Depot
+Route 344: Depot -> Healthcare at 2134 -> Depot
+Route 345: Depot -> Healthcare at 2136 -> Depot
+Route 346: Depot -> Healthcare at 2141 -> Depot
+Route 347: Depot -> Healthcare at 2160 -> Depot
+Route 348: Depot -> Healthcare at 2166 -> Depot
+Route 349: Depot -> Healthcare at 2169 -> Depot
+Route 350: Depot -> Healthcare at 2172 -> Depot
+Route 351: Depot -> Healthcare at 2182 -> Depot
+Route 352: Depot -> Healthcare at 2194 -> Depot
+Route 353: Depot -> Healthcare at 2196 -> Depot
+Route 354: Depot -> Healthcare at 2201 -> Depot
+Route 355: Depot -> Healthcare at 2206 -> Depot
+Route 356: Depot -> Healthcare at 2208 -> Depot
+Route 357: Depot -> Healthcare at 2210 -> Depot
+Route 358: Depot -> Healthcare at 2225 -> Depot
+Route 359: Depot -> Healthcare at 2228 -> Depot
+Route 360: Depot -> Healthcare at 2230 -> Depot
+Route 361: Depot -> Healthcare at 2242 -> Depot
+Route 362: Depot -> Healthcare at 2246 -> Depot
+Route 363: Depot -> Healthcare at 2248 -> Depot
+Route 364: Depot -> Healthcare at 2250 -> Depot
+Route 365: Depot -> Healthcare at 2252 -> Depot
+Route 366: Depot -> Healthcare at 2255 -> Depot
+Route 367: Depot -> Healthcare at 2265 -> Depot
+Route 368: Depot -> Healthcare at 2267 -> Depot
+Route 369: Depot -> Healthcare at 2274 -> Depot
+Route 370: Depot -> Healthcare at 2278 -> Depot
+Route 371: Depot -> Healthcare at 2289 -> Depot
+Route 372: Depot -> Healthcare at 2299 -> Depot
+Route 373: Depot -> Healthcare at 2301 -> Depot
+Route 374: Depot -> Healthcare at 2304 -> Depot
+Route 375: Depot -> Healthcare at 2309 -> Depot
+Route 376: Depot -> Healthcare at 2314 -> Depot
+Route 377: Depot -> Healthcare at 2318 -> Depot
+Route 378: Depot -> Healthcare at 2319 -> Depot
+Route 379: Depot -> Healthcare at 2322 -> Depot
+Route 380: Depot -> Healthcare at 2324 -> Depot
+Route 381: Depot -> Healthcare at 2326 -> Depot
+Route 382: Depot -> Healthcare at 2327 -> Depot
+Route 383: Depot -> Healthcare at 2339 -> Depot
+Route 384: Depot -> Healthcare at 2343 -> Depot
+Route 385: Depot -> Healthcare at 2345 -> Depot
+Route 386: Depot -> Healthcare at 2346 -> Depot
+Route 387: Depot -> Healthcare at 2347 -> Depot
+Route 388: Depot -> Healthcare at 2353 -> Depot
+Route 389: Depot -> Healthcare at 2361 -> Depot
+Route 390: Depot -> Healthcare at 2376 -> Depot
+Route 391: Depot -> Healthcare at 2380 -> Depot
+Route 392: Depot -> Healthcare at 2392 -> Depot
+Route 393: Depot -> Healthcare at 2394 -> Depot
+Route 394: Depot -> Healthcare at 2411 -> Depot
+Route 395: Depot -> Healthcare at 2424 -> Depot
+Route 396: Depot -> Healthcare at 2431 -> Depot
+Route 397: Depot -> Healthcare at 2432 -> Depot
+Route 398: Depot -> Healthcare at 2438 -> Depot
+Route 399: Depot -> Healthcare at 2448 -> Depot
+Route 400: Depot -> Healthcare at 2456 -> Depot
+Route 401: Depot -> Healthcare at 2457 -> Depot
+Route 402: Depot -> Healthcare at 2459 -> Depot
+Route 403: Depot -> Healthcare at 2464 -> Depot
+Route 404: Depot -> Healthcare at 2470 -> Depot
+Route 405: Depot -> Healthcare at 2486 -> Depot
+Route 406: Depot -> Healthcare at 2488 -> Depot
+Route 407: Depot -> Healthcare at 2492 -> Depot
+Route 408: Depot -> Healthcare at 2495 -> Depot
+Route 409: Depot -> Healthcare at 2498 -> Depot
+Route 410: Depot -> Healthcare at 2507 -> Depot
+Route 411: Depot -> Healthcare at 2522 -> Depot
+Route 412: Depot -> Healthcare at 2529 -> Depot
+Route 413: Depot -> Healthcare at 2530 -> Depot
+Route 414: Depot -> Healthcare at 2533 -> Depot
+Route 415: Depot -> Healthcare at 2539 -> Depot
+Route 416: Depot -> Healthcare at 2542 -> Depot
+Route 417: Depot -> Healthcare at 2548 -> Depot
+Route 418: Depot -> Healthcare at 2551 -> Depot
+Route 419: Depot -> Healthcare at 2553 -> Depot
+Route 420: Depot -> Healthcare at 2566 -> Depot
+Route 421: Depot -> Healthcare at 2569 -> Depot
+Route 422: Depot -> Healthcare at 2581 -> Depot
+Route 423: Depot -> Healthcare at 2584 -> Depot
+Route 424: Depot -> Healthcare at 2587 -> Depot
+Route 425: Depot -> Healthcare at 2598 -> Depot
+Route 426: Depot -> Healthcare at 2607 -> Depot
+Route 427: Depot -> Healthcare at 2611 -> Depot
+Route 428: Depot -> Healthcare at 2612 -> Depot
+Route 429: Depot -> Healthcare at 2618 -> Depot
+Route 430: Depot -> Healthcare at 2621 -> Depot
+Route 431: Depot -> Healthcare at 2625 -> Depot
+Route 432: Depot -> Healthcare at 2639 -> Depot
+Route 433: Depot -> Healthcare at 2643 -> Depot
+Route 434: Depot -> Healthcare at 2644 -> Depot
+Route 435: Depot -> Healthcare at 2650 -> Depot
+Route 436: Depot -> Healthcare at 2655 -> Depot
+Route 437: Depot -> Healthcare at 2671 -> Depot
+Route 438: Depot -> Healthcare at 2673 -> Depot
+Route 439: Depot -> Healthcare at 2679 -> Depot
+Route 440: Depot -> Healthcare at 2686 -> Depot
+Route 441: Depot -> Healthcare at 2688 -> Depot
+Route 442: Depot -> Healthcare at 2705 -> Depot
+Route 443: Depot -> Healthcare at 2709 -> Depot
+Route 444: Depot -> Healthcare at 2735 -> Depot
+Route 445: Depot -> Healthcare at 2754 -> Depot
+Route 446: Depot -> Healthcare at 2755 -> Depot
+Route 447: Depot -> Healthcare at 2756 -> Depot
+Route 448: Depot -> Healthcare at 2758 -> Depot
+Route 449: Depot -> Healthcare at 2759 -> Depot
+Route 450: Depot -> Healthcare at 2765 -> Depot
+Route 451: Depot -> Healthcare at 2773 -> Depot
+Route 452: Depot -> Healthcare at 2774 -> Depot
+Route 453: Depot -> Healthcare at 2786 -> Depot
+Route 454: Depot -> Healthcare at 2789 -> Depot
+Route 455: Depot -> Healthcare at 2792 -> Depot
+Route 456: Depot -> Healthcare at 2803 -> Depot
+Route 457: Depot -> Healthcare at 2807 -> Depot
+Route 458: Depot -> Healthcare at 2819 -> Depot
+Route 459: Depot -> Healthcare at 2823 -> Depot
+Route 460: Depot -> Healthcare at 2825 -> Depot
+Route 461: Depot -> Healthcare at 2831 -> Depot
+Route 462: Depot -> Healthcare at 2839 -> Depot
+Route 463: Depot -> Healthcare at 2841 -> Depot
+Route 464: Depot -> Healthcare at 2846 -> Depot
+Route 465: Depot -> Healthcare at 2853 -> Depot
+Route 466: Depot -> Healthcare at 2856 -> Depot
+Route 467: Depot -> Healthcare at 2857 -> Depot
+Route 468: Depot -> Healthcare at 2862 -> Depot
+Route 469: Depot -> Healthcare at 2863 -> Depot
+Route 470: Depot -> Healthcare at 2867 -> Depot
+Route 471: Depot -> Healthcare at 2870 -> Depot
+Route 472: Depot -> Healthcare at 2872 -> Depot
+Route 473: Depot -> Healthcare at 2873 -> Depot
+Route 474: Depot -> Healthcare at 2876 -> Depot
+Route 475: Depot -> Healthcare at 2877 -> Depot
+Route 476: Depot -> Healthcare at 2878 -> Depot
+Route 477: Depot -> Healthcare at 2880 -> Depot
+Route 478: Depot -> Healthcare at 2904 -> Depot
+Route 479: Depot -> Healthcare at 2910 -> Depot
+Route 480: Depot -> Healthcare at 2915 -> Depot
+Route 481: Depot -> Healthcare at 2917 -> Depot
+Route 482: Depot -> Healthcare at 2920 -> Depot
+Route 483: Depot -> Healthcare at 2921 -> Depot
+Route 484: Depot -> Healthcare at 2922 -> Depot
+Route 485: Depot -> Healthcare at 2934 -> Depot
+Route 486: Depot -> Healthcare at 2936 -> Depot
+Route 487: Depot -> Healthcare at 2937 -> Depot
+Route 488: Depot -> Healthcare at 2939 -> Depot
+Route 489: Depot -> Healthcare at 2945 -> Depot
+Route 490: Depot -> Healthcare at 2951 -> Depot
+Route 491: Depot -> Healthcare at 2956 -> Depot
+Route 492: Depot -> Healthcare at 2965 -> Depot
+Route 493: Depot -> Healthcare at 2966 -> Depot
+Route 494: Depot -> Healthcare at 2981 -> Depot
+Route 495: Depot -> Healthcare at 2983 -> Depot
+Route 496: Depot -> Healthcare at 2984 -> Depot
+Route 497: Depot -> Healthcare at 2990 -> Depot
+Route 498: Depot -> Healthcare at 2992 -> Depot
+Route 499: Depot -> Healthcare at 2993 -> Depot
+Route 500: Depot -> Healthcare at 2994 -> Depot
+Objective Value: 1320909.9544346384

@@ -1,0 +1,57 @@
+Stage-1:
+Healthcenter deployed at 4: Communities Assigned = {9, 54, 86, 223, 232}
+Healthcenter deployed at 5: Communities Assigned = {3, 5, 109, 165, 166}
+Healthcenter deployed at 14: Communities Assigned = {14, 19, 127, 130, 168, 207}
+Healthcenter deployed at 15: Communities Assigned = {17, 24, 172, 182, 224}
+Healthcenter deployed at 21: Communities Assigned = {21, 45, 134, 276, 299}
+Healthcenter deployed at 22: Communities Assigned = {22, 113, 133, 138}
+Healthcenter deployed at 26: Communities Assigned = {16, 26, 35, 106, 190, 271}
+Healthcenter deployed at 29: Communities Assigned = {29, 82, 121, 151, 238, 270}
+Healthcenter deployed at 38: Communities Assigned = {4, 38, 163, 195, 290}
+Healthcenter deployed at 43: Communities Assigned = {37, 112, 178, 188, 206, 210, 286}
+Healthcenter deployed at 49: Communities Assigned = {49, 71, 142, 160}
+Healthcenter deployed at 67: Communities Assigned = {20, 27, 67, 157, 220, 248}
+Healthcenter deployed at 76: Communities Assigned = {36, 55, 107, 241, 245}
+Healthcenter deployed at 81: Communities Assigned = {32, 81, 116, 201, 227, 229, 264}
+Healthcenter deployed at 83: Communities Assigned = {7, 80, 101, 179, 193, 219, 261, 268}
+Healthcenter deployed at 87: Communities Assigned = {87, 119, 129, 194, 197, 200, 280, 284}
+Healthcenter deployed at 89: Communities Assigned = {33, 94, 96, 125, 144, 158, 173, 191, 211, 214, 234}
+Healthcenter deployed at 92: Communities Assigned = {114, 155, 192, 293, 296}
+Healthcenter deployed at 93: Communities Assigned = {39, 83, 93, 203, 222}
+Healthcenter deployed at 96: Communities Assigned = {52, 98, 162, 171, 235, 282}
+Healthcenter deployed at 104: Communities Assigned = {8, 70, 104, 139, 272, 274}
+Healthcenter deployed at 111: Communities Assigned = {68, 77, 90, 111, 132, 269}
+Healthcenter deployed at 117: Communities Assigned = {12, 66, 74, 88, 187, 236}
+Healthcenter deployed at 120: Communities Assigned = {25, 63, 97, 102, 103, 137}
+Healthcenter deployed at 124: Communities Assigned = {43, 51, 62, 72, 126, 253}
+Healthcenter deployed at 125: Communities Assigned = {40, 84, 89, 154, 230, 239, 278, 298}
+Healthcenter deployed at 127: Communities Assigned = {47, 78, 110, 136, 143, 262}
+Healthcenter deployed at 129: Communities Assigned = {100, 117, 146, 204, 242, 249}
+Healthcenter deployed at 145: Communities Assigned = {73, 76, 95, 145, 254, 300}
+Healthcenter deployed at 147: Communities Assigned = {13, 15, 108, 237, 265, 273}
+Healthcenter deployed at 149: Communities Assigned = {115, 123, 149, 205, 287}
+Healthcenter deployed at 156: Communities Assigned = {61, 120, 209, 215, 252}
+Healthcenter deployed at 157: Communities Assigned = {11, 46, 124, 147, 259, 279}
+Healthcenter deployed at 161: Communities Assigned = {53, 161, 263, 277}
+Healthcenter deployed at 167: Communities Assigned = {57, 64, 75, 99, 255}
+Healthcenter deployed at 170: Communities Assigned = {6, 60, 65, 170, 185, 291}
+Healthcenter deployed at 181: Communities Assigned = {56, 59, 91, 181, 212, 228, 295}
+Healthcenter deployed at 189: Communities Assigned = {131, 164, 184, 189, 244}
+Healthcenter deployed at 192: Communities Assigned = {58, 85, 177, 217, 226, 292}
+Healthcenter deployed at 198: Communities Assigned = {1, 34, 118, 152, 153, 176, 198}
+Healthcenter deployed at 202: Communities Assigned = {28, 150, 174, 186, 202}
+Healthcenter deployed at 208: Communities Assigned = {159, 167, 208, 233, 260, 266}
+Healthcenter deployed at 231: Communities Assigned = {2, 79, 105, 156, 231}
+Healthcenter deployed at 250: Communities Assigned = {18, 41, 42, 213, 250}
+Healthcenter deployed at 256: Communities Assigned = {31, 44, 69, 256, 297}
+Healthcenter deployed at 257: Communities Assigned = {10, 23, 92, 135, 216, 218, 240, 246, 257, 288, 294}
+Healthcenter deployed at 258: Communities Assigned = {30, 128, 148, 169, 221, 258, 267, 285}
+Healthcenter deployed at 289: Communities Assigned = {141, 199, 247, 251, 283}
+Healthcenter deployed at 290: Communities Assigned = {48, 50, 140, 180, 225, 275, 281}
+Healthcenter deployed at 294: Communities Assigned = {122, 175, 183, 196, 243, 289}
+Objective Value: 26268.955061060195
+
+Stage-2:
+Route 1: Depot -> Healthcenter at 49 -> Healthcenter at 290 -> Healthcenter at 38 -> Healthcenter at 189 -> Healthcenter at 170 -> Healthcenter at 4 -> Healthcenter at 5 -> Healthcenter at 96 -> Healthcenter at 258 -> Healthcenter at 125 -> Healthcenter at 89 -> Healthcenter at 26 -> Healthcenter at 124 -> Healthcenter at 157 -> Healthcenter at 67 -> Healthcenter at 43 -> Healthcenter at 111 -> Healthcenter at 147 -> Healthcenter at 15 -> Healthcenter at 21 -> Healthcenter at 76 -> Healthcenter at 149 -> Healthcenter at 22 -> Healthcenter at 202 -> Healthcenter at 192 -> Healthcenter at 145 -> Healthcenter at 250 -> Healthcenter at 161 -> Depot
+Route 2: Depot -> Healthcenter at 83 -> Healthcenter at 127 -> Healthcenter at 92 -> Healthcenter at 294 -> Healthcenter at 257 -> Healthcenter at 198 -> Healthcenter at 29 -> Healthcenter at 81 -> Healthcenter at 117 -> Healthcenter at 129 -> Healthcenter at 87 -> Healthcenter at 181 -> Healthcenter at 231 -> Healthcenter at 120 -> Healthcenter at 156 -> Healthcenter at 208 -> Healthcenter at 167 -> Healthcenter at 256 -> Healthcenter at 104 -> Healthcenter at 289 -> Healthcenter at 14 -> Healthcenter at 93 -> Depot
+Objective Value: 9842.801150863621
