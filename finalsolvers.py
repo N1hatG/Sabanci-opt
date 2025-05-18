@@ -212,15 +212,15 @@ def solve_to_optimality(problem: ProblemModel, radius, warm_start_path=None):
             node = problem.nodes[i]
             dist_bigM = 0
             for j in range(problem.num_communities):
-                dist_bigM = max(node.population_size*node.dist_to(problem.nodes[j]) ,dist_bigM)
+                dist_bigM = max(node.dist_to(problem.nodes[j]) ,dist_bigM)
             for j in range(problem.num_communities):
                 model.addConstr(
-                    node.population_size * node.dist_to(problem.nodes[j])* is_assigned_to[i, j] <=
+                    node.dist_to(problem.nodes[j])* is_assigned_to[i, j] <=
                     max_dist + ((1-is_center[j])*dist_bigM)
                 )
             for j in range(problem.num_communities):
                 model.addConstr(
-                    node.population_size * node.dist_to(problem.nodes[j])* is_assigned_to[i, j] >=
+                    node.dist_to(problem.nodes[j])* is_assigned_to[i, j] >=
                     min_dist - ((1-is_center[j])*dist_bigM)
                 )
         
@@ -252,6 +252,7 @@ def solve_to_optimality(problem: ProblemModel, radius, warm_start_path=None):
     print(f'Starting optimization...')        
     model.setObjective(Z, GRB.MINIMIZE)
     model.optimize()
+    
     if 1:
         if model.status != GRB.INFEASIBLE:
             assigned_cities = {}

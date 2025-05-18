@@ -117,7 +117,7 @@ class FirstSolution:
         community_distances = []
         for center in self.assigned_cities:
             for city in self.assigned_cities[center]:
-                community_distances.append(city.population_size * city.dist_to(center))
+                community_distances.append(city.dist_to(center))
         min_distance = min(community_distances) if community_distances else 0
         max_distance = max(community_distances) if community_distances else 0
         distance_gap = max_distance - min_distance
