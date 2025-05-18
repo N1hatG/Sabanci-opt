@@ -169,7 +169,7 @@ def solve_to_optimality(problem: ProblemModel, radius):
     # maximum C healthcenters
     print(f'C1')
     model.addConstr(
-        gp.quicksum(is_center[i] for i in range(problem.num_communities)) == problem.num_healthcenters
+        gp.quicksum(is_center[i] for i in range(problem.num_communities)) <= problem.num_healthcenters
     )
 
     # every city is assigned to 1 healthcenter
@@ -209,7 +209,7 @@ def solve_to_optimality(problem: ProblemModel, radius):
             upper_capacity >= used_capacity
         )
         model.addConstr(
-            lower_capacity <= used_capacity
+            lower_capacity <= used_capacity + (1-is_center[i])*bigM
         )
 
     model.addConstr(upper_capacity-lower_capacity <= problem.alpha)
