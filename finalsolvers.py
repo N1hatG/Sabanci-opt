@@ -215,21 +215,16 @@ def solve_to_optimality(problem: ProblemModel, radius):
     model.addConstr(upper_capacity-lower_capacity <= problem.alpha)
 
     # Z is bigger, L is small than all the distances
+    max_dist = model.addVar()
+    min_dist = model.addVar()
     for i in range(problem.num_communities):
-        node = problem.nodes[i]
-        max_dist = 0
-        for j in range(problem.num_communities):
-            max_dist = max(node.population_size*node.dist_to(problem.nodes[j]) ,max_dist)
-        for j in range(problem.num_communities):
-            model.addConstr(
-                node.population_size * node.dist_to(problem.nodes[j])* is_assigned_to[i, j] <=
-                Z + ((1-is_center[j])*max_dist)
-            )
-            model.addConstr(
-                node.population_size * node.dist_to(problem.nodes[j])* is_assigned_to[i, j] >=
-                L - ((1-is_center[j])*max_dist)
-            )
-    model.addConstr(Z - L <= problem.beta)
+        d_i = model.addVar()
+        model.addConstr(
+            d_i == gp.quicksum(is_assigned_to[i, j] * problem.nodes[i].dist_to(problem.nodes[j]) for j in range(problem.num_communities))
+        )
+        model.addConstr(d_i <= max_dist)
+        model.addConstr(d_i >= min_dist)
+    model.addConstr(max_dist - min_dist <= problem.beta)
 
     print(f'Starting optimization...')        
     model.setObjective(Z, GRB.MINIMIZE)

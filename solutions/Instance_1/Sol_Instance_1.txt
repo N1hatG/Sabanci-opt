@@ -1,0 +1,13 @@
+Stage-1:
+Healthcenter deployed at 2: Communities Assigned = {3, 11, 14, 16, 17, 37, 40, 69}
+Healthcenter deployed at 3: Communities Assigned = {5, 15, 21, 22, 26, 32, 33, 41, 52, 53, 56, 58, 68, 70, 75}
+Healthcenter deployed at 5: Communities Assigned = {2, 6, 7, 8, 12, 24, 27, 34, 35, 36, 57, 59}
+Healthcenter deployed at 34: Communities Assigned = {4, 13, 20, 23, 25, 31, 73, 74, 76, 80, 81, 85, 89, 91}
+Healthcenter deployed at 51: Communities Assigned = {51}
+Healthcenter deployed at 52: Communities Assigned = {42, 43, 44, 45, 46, 47, 55, 67, 71}
+Healthcenter deployed at 54: Communities Assigned = {1, 49, 50, 54, 60, 65}
+Healthcenter deployed at 66: Communities Assigned = {48, 61, 62, 63, 64, 66, 72}
+Healthcenter deployed at 88: Communities Assigned = {77, 79, 82, 83, 84, 86, 87, 88, 90, 92, 93, 94, 95, 100}
+Healthcenter deployed at 96: Communities Assigned = {9, 10, 18, 19, 28, 29, 30, 38, 39, 78, 96, 97, 98, 99}
+Objective Value: 75103.69066830205
+
