@@ -21,7 +21,7 @@ class ProblemModel:
         # final problem details
         # note that num_healthcenters might change depending on the solution
         self.alpha = round((sum([i.population_size for i in nodes])/num_healthcenters) * 0.2)
-        self.beta = max([i.dist_to(j) for i in nodes for j in nodes]) * 0.2
+        self.beta = max([i.population_size * i.dist_to(j) for i in nodes for j in nodes]) * 0.2
     def __str__(self):
         res = f'{self.num_communities} {self.num_healthcenters}\n'
         res += f'0 {self.depot[0]} {self.depot[1]}\n'
@@ -117,7 +117,7 @@ class FirstSolution:
         community_distances = []
         for center in self.assigned_cities:
             for city in self.assigned_cities[center]:
-                community_distances.append(city.dist_to(center))
+                community_distances.append(city.population_size * city.dist_to(center))
         min_distance = min(community_distances) if community_distances else 0
         max_distance = max(community_distances) if community_distances else 0
         distance_gap = max_distance - min_distance

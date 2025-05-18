@@ -11,7 +11,8 @@ import sys
 # Finds *one* solution if optimal solution is below given radius. Can be used with binary search
 def solve_given_r(problem: ProblemModel, radius):
     model = gp.Model('Sabanci_Covering_Model')
-    feasible_ranges = algos.get_points_in_range(radius, problem.nodes)
+    lower_range = radius - 2*problem.beta
+    feasible_ranges = algos.get_points_in_range(radius, problem.nodes, min_dist=lower_range)
     # Decision variables
     # 1 if city i contains a healthcenter, 0 otherwise
     print(f'Initializing decision variables.')
@@ -36,7 +37,7 @@ def solve_given_r(problem: ProblemModel, radius):
                 gp.quicksum(is_assigned_to[i, other_point] for other_point in points_in_range) == 1
             )
     if 1:
-        outside_points = algos.get_points_out_range(radius, problem.nodes)
+        outside_points = algos.get_points_out_range(radius, problem.nodes, min_dist=lower_range)
         for i in range(problem.num_communities):
             points_out_range = outside_points[i]
             model.addConstr(
@@ -87,14 +88,11 @@ def solve_given_r(problem: ProblemModel, radius):
             upper_capacity >= used_capacity
         )
         model.addConstr(
-            lower_capacity <= used_capacity
+            lower_capacity <= used_capacity + (1-is_center[i])*bigM
         )
         
     model.addConstr(upper_capacity - lower_capacity <= problem.alpha)
 
-    #Beta constraint 
-    max_dist = model.addVar()
-    min_dist = model.addVar()
     for i in range(problem.num_communities):
         d_i = model.addVar()
         model.addConstr(
@@ -209,16 +207,32 @@ def solve_to_optimality(problem: ProblemModel, radius):
 
     model.addConstr(upper_capacity-lower_capacity <= problem.alpha)
 
-    # Z is bigger, L is small than all the distances
     max_dist = model.addVar()
     min_dist = model.addVar()
-    for i in range(problem.num_communities):
-        d_i = model.addVar()
-        model.addConstr(
-            d_i == gp.quicksum(is_assigned_to[i, j] * problem.nodes[i].dist_to(problem.nodes[j]) for j in range(problem.num_communities))
-        )
-        model.addConstr(d_i <= max_dist)
-        model.addConstr(d_i >= min_dist)
+    if 0:
+        for i in range(problem.num_communities):
+            node = problem.nodes[i]
+            dist_bigM = 0
+            for j in range(problem.num_communities):
+                dist_bigM = max(node.population_size*node.dist_to(problem.nodes[j]) ,dist_bigM)
+            for j in range(problem.num_communities):
+                model.addConstr(
+                    node.population_size * node.dist_to(problem.nodes[j])* is_assigned_to[i, j] <=
+                    max_dist + ((1-is_center[j])*dist_bigM)
+                )
+            for j in range(problem.num_communities):
+                model.addConstr(
+                    node.population_size * node.dist_to(problem.nodes[j])* is_assigned_to[i, j] >=
+                    min_dist - ((1-is_center[j])*dist_bigM)
+                )
+    else:
+        for i in range(problem.num_communities):
+            d_i = model.addVar()
+            model.addConstr(
+                d_i == gp.quicksum((problem.nodes[i].dist_to(problem.nodes[j]) * problem.nodes[i].population_size) * is_assigned_to[i, j] for j in range(problem.num_communities))
+            )
+            model.addConstr(d_i <= max_dist)
+            model.addConstr(d_i >= min_dist)
     model.addConstr(max_dist - min_dist <= problem.beta)
 
     print(f'Starting optimization...')        
