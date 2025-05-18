@@ -281,6 +281,164 @@ def solve_to_optimality(problem: ProblemModel, radius, warm_start_path=None):
             print(f'No feasible solution found for maxr={radius}')
             return False
 
+
+def solve_absence_beta(problem: ProblemModel, radius, warm_start_path=None):
+    model = gp.Model('Sabanci_Covering_Model')
+    feasible_ranges = algos.get_points_in_range(radius, problem.nodes)
+    # Decision variables
+    # 1 if city i contains a healthcenter, 0 otherwise
+    print(f'Initializing decision variables.')
+    is_center = model.addVars(problem.num_communities, vtype=GRB.BINARY)
+    
+    # 1 if city i is assigned to city j, 0 otherwise
+    is_assigned_to = model.addVars(problem.num_communities, problem.num_communities, vtype=GRB.BINARY)
+
+
+    # upper and lower capacities
+    upper_capacity = model.addVar()
+    lower_capacity = model.addVar()
+
+    # constraints
+    print(f'Adding constraints')
+    print(f'C3')
+    if 0:
+        for i in range(problem.num_communities):
+            #print(f'city {i} has {len(feasible_ranges[i])} points in range')
+            points_in_range = feasible_ranges[i]
+            model.addConstr(
+                gp.quicksum(is_assigned_to[i, other_point] for other_point in points_in_range) == 1
+            )
+    if 1:
+        outside_points = algos.get_points_out_range(radius, problem.nodes)
+        for i in range(problem.num_communities):
+            points_out_range = outside_points[i]
+            model.addConstr(
+                gp.quicksum(is_assigned_to[i, other_point] for other_point in points_out_range) == 0
+            )
+
+        outside_points = algos.get_points_out_range_nw(problem.beta, problem.nodes)
+        for i in range(problem.num_communities):
+            points_out_range = outside_points[i]
+            model.addConstr(
+                gp.quicksum(is_assigned_to[i, other_point] for other_point in points_out_range) == 0
+            )
+            
+    #model.presolve()
+    # maximum C healthcenters
+    print(f'C1')
+    model.addConstr(
+        gp.quicksum(is_center[i] for i in range(problem.num_communities)) <= problem.num_healthcenters
+    )
+
+    # every city is assigned to 1 healthcenter
+    print(f'C2')
+    for i in range(problem.num_communities):
+        model.addConstr(
+            gp.quicksum(is_assigned_to[i, j] for j in range(problem.num_communities)) == 1
+        )
+    
+    # ... which should be in range. the constraint above is not needed but i think it is necessary to set out of range
+    # variables to 0
+    
+    # every city can only be assigned to places with healthcenters
+    print(f'C4')
+    bigM = problem.num_communities
+    for j in range(problem.num_communities):
+        model.addConstr(
+            gp.quicksum(is_assigned_to[i, j] for i in range(problem.num_communities)) <= bigM* is_center[j]
+        )
+
+
+    # every center must not exceed its capacity
+    print(f'C5')
+    total_people = 0
+    for node in problem.nodes:
+        point: PopulationNode = node
+        total_people += point.population_size
+    bigM = total_people + 5
+
+    for i in range(problem.num_communities):
+        point: PopulationNode = problem.nodes[i]
+        used_capacity = gp.quicksum(problem.nodes[j].population_size * is_assigned_to[j,i] for j in range(problem.num_communities))
+        model.addConstr(
+             used_capacity <= point.healthcare_capacity
+            )
+        model.addConstr(
+            upper_capacity >= used_capacity
+        )
+        model.addConstr(
+            lower_capacity <= used_capacity + (1-is_center[i])*bigM
+        )
+
+    model.addConstr(upper_capacity-lower_capacity <= problem.alpha)
+
+    max_dist = model.addVar()
+    min_dist = model.addVar()
+    Z = model.addVar()
+    if 0:
+        for i in range(problem.num_communities):
+            node = problem.nodes[i]
+            dist_bigM = 0
+            for j in range(problem.num_communities):
+                dist_bigM = max(node.dist_to(problem.nodes[j]) ,dist_bigM)
+            for j in range(problem.num_communities):
+                model.addConstr(
+                    node.dist_to(problem.nodes[j])* is_assigned_to[i, j] <=
+                    max_dist + ((1-is_center[j])*dist_bigM)
+                )
+            for j in range(problem.num_communities):
+                model.addConstr(
+                    node.dist_to(problem.nodes[j])* is_assigned_to[i, j] >=
+                    min_dist - ((1-is_center[j])*dist_bigM)
+                )
+        
+    else:
+        for i in range(problem.num_communities):
+            d_i = model.addVar()
+            model.addConstr(
+                d_i == gp.quicksum((problem.nodes[i].dist_to(problem.nodes[j])) * is_assigned_to[i, j] for j in range(problem.num_communities))
+            )
+            model.addConstr(d_i <= max_dist)
+            model.addConstr(d_i >= min_dist)
+            model.addConstr(d_i * problem.nodes[i].population_size <= Z)
+
+    # --- WARM START INTEGRATION ---
+    if warm_start_path and parse_solution_file is not None and os.path.exists(warm_start_path):
+        print(f"Applying warm start from {warm_start_path}")
+        assignments = parse_solution_file(warm_start_path)
+        # Set assignment variables
+        for community, healthcenter in assignments.items():
+            if (healthcenter in range(problem.num_communities)) and (community in range(problem.num_communities)):
+                is_assigned_to[community, healthcenter].Start = 1
+                for j in range(problem.num_communities):
+                    if j != healthcenter:
+                        is_assigned_to[community, j].Start = 0
+        # Set center open variables
+        for i in range(problem.num_communities):
+            is_center[i].Start = 1 if i in set(assignments.values()) else 0
+
+    print(f'Starting optimization...')        
+    model.setObjective(Z, GRB.MINIMIZE)
+    model.optimize()
+    
+    if 1:
+        if model.status != GRB.INFEASIBLE:
+            assigned_cities = {}
+            print(f'Solution found')
+            for i in range(problem.num_communities):
+                if is_center[i].X > 0.5:
+                    assigned_cities[i] = []
+            for i in range(problem.num_communities):
+                for j in range(problem.num_communities):
+                    if is_assigned_to[i, j].X > 0.5:
+                        assigned_cities[j].append(i)
+            res = FirstSolution(assigned_cities, problem)
+            res.print_sol()
+            return res
+        else:
+            print(f'No feasible solution found for maxr={radius}')
+            return False
+
 # each healthcenter contains closest k points, turning n^2 decision variables to n
 # but we lose the optimality
 def solve_capacity_removed(problem: ProblemModel, max_radius, banned_sols = None):
