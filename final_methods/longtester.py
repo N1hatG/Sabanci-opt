@@ -10,7 +10,7 @@ from generate_vrp import generate_lkh3_vrp_file_from_solution, lkh3_sol_to_jagge
 
 # Load the instance model
 instance_id = sys.argv[1]
-instance_path = f'final_data/{instance_id}.txt'
+instance_path = f'final_data/{instance_id}.txt' if 0 else f'instances/{instance_id}.txt'
 res_path = f'Sol_{instance_path}'
 model = ProblemModel.from_file(instance_path)
 try:
