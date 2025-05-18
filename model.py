@@ -102,6 +102,7 @@ class FirstSolution:
         print(f'With Z={self.calculate_objective()}')
         self.is_feasible(do_print_reason=True)
 
+
     def is_feasible(self, do_print_reason = False):
         is_assigned = [False] * self.model.num_communities
         used_capacities = {}
@@ -126,6 +127,30 @@ class FirstSolution:
                     print(f'Infeasible because city {c.index} exceeds capacity')
                 return False
         return True
+        
+    def is_alpha_feasible(self):
+        workloads = [sum(city.population_size for city in self.assigned_cities[center]) for center in self.centers]
+        if not workloads:
+            return False
+
+        max_workload = max(workloads)
+        min_workload = min(workloads)
+
+        alpha = self.model.alpha
+        return (max_workload - min_workload) <= alpha
+
+    def is_beta_feasible(self):
+        community_distances = []
+        for center in self.assigned_cities:
+            for city in self.assigned_cities[center]:
+                community_distances.append(city.dist_to(center))
+        if not community_distances:
+            return False 
+        max_distance = max(community_distances)
+        min_distance = min(community_distances)
+
+        beta = self.model.beta
+        return (max_distance - min_distance) <= beta
         
     def to_file(self, filepath):
         res_str = 'Stage-1:\n'
