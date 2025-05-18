@@ -39,10 +39,8 @@ while 1:
         r += 2000
 
 # Export if feasible solution is found
-output_path = None
-if not not solution:
-    print("❌ No feasible solution found for any radius.")
 solution.to_file(f'Final_solutions/{instance_id}/Sol_{instance_id}.txt')
+print(solution.print_sol())
 print(f"✅ Final radius used: {selected_radius}")
 
 
