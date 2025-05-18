@@ -19,8 +19,8 @@ class ProblemModel:
         self.nodes: List[PopulationNode] = nodes
         # final problem details
         # note that num_healthcenters might change depending on the solution
-        alpha = round((sum([i.population_size for i in nodes])/num_healthcenters) * 0.2)
-        beta = max([i.dist_to(j) for i in nodes for j in nodes]) * 0.2
+        self.alpha = round((sum([i.population_size for i in nodes])/num_healthcenters) * 0.2)
+        self.beta = max([i.dist_to(j) for i in nodes for j in nodes]) * 0.2
     def __str__(self):
         res = f'{self.num_communities} {self.num_healthcenters}\n'
         res += f'0 {self.depot[0]} {self.depot[1]}\n'
