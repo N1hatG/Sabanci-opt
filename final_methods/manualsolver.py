@@ -10,7 +10,6 @@ from generate_vrp import generate_lkh3_vrp_file_from_solution, lkh3_sol_to_jagge
 
 instance_id = sys.argv[1]
 upper_bound = int(sys.argv[2])
-
 try:
     os.mkdir(f'solutions/{instance_id}')
 except Exception:

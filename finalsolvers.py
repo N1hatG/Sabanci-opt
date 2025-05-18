@@ -318,7 +318,7 @@ def solve_capacity_removed(problem: ProblemModel, max_radius, banned_sols = None
                 gp.quicksum(is_center[c.index-1] for c in centers) <= len(centers) -1
             )
 
-
+    
     print(f'Starting optimization...')        
     model.optimize()
     if 1:
@@ -349,7 +349,7 @@ def solve_distribute_cities(curr_sol: FirstSolution):
     model = gp.Model()
     #model.setParam('TimeLimit', 60*2)
 
-    centers = []
+    centers = curr_sol.centers
     # 1 if city i assigned to center c
     is_assigned_to = model.addVars(problem.num_communities, problem.num_healthcenters, vtype=GRB.BINARY)
 
@@ -358,22 +358,46 @@ def solve_distribute_cities(curr_sol: FirstSolution):
             gp.quicksum(is_assigned_to[i, j] for j in range(problem.num_healthcenters)) == 1
         )
     
-    is_assignable_to = [[] for i in range(problem.num_communities)]
-    for center in curr_sol.assigned_cities:
-        for city in curr_sol.assigned_cities[center]:
-            center_ind = curr_sol.centers.index(center)
-            is_assignable_to[city.index-1].append(center_ind)
-    
-    for i in range(problem.num_communities):
-        assignable_centers = is_assignable_to[i]
-        model.addConstr(
-            gp.quicksum(is_assigned_to[i, j] for j in assignable_centers) == 1
-        )
+    #for i in range(problem.num_communities):
+    #    model.addConstr(
+    #        gp.quicksum(is_assigned_to[i, j] for j in range(problem.num_healthcenters)) == 1
+    #    )
     
     for center in range(problem.num_healthcenters):
         model.addConstr(
             gp.quicksum(problem.nodes[i].population_size* is_assigned_to[i, center] for i in range(problem.num_communities)) <= curr_sol.centers[center].healthcare_capacity
         )
+
+    Z = model.addVar()
+    upper_capacity = model.addVar()
+    lower_capacity = model.addVar()
+    for i in range(problem.num_healthcenters):
+        point: PopulationNode = problem.nodes[i]
+        used_capacity = gp.quicksum(problem.nodes[j].population_size * is_assigned_to[j,i] for j in range(problem.num_communities))
+        model.addConstr(
+                used_capacity <= point.healthcare_capacity
+            )
+        model.addConstr(
+            upper_capacity >= used_capacity
+        )
+        model.addConstr(
+            lower_capacity <= used_capacity
+        )
+
+    max_dist = model.addVar()
+    min_dist = model.addVar()
+    Z = model.addVar()
+    for i in range(problem.num_communities):
+        d_i = model.addVar()
+        model.addConstr(
+            d_i == gp.quicksum((problem.nodes[i].dist_to(centers[j])) * is_assigned_to[i, j] for j in range(problem.num_healthcenters))
+        )
+        model.addConstr(d_i <= max_dist)
+        model.addConstr(d_i >= min_dist)
+        model.addConstr(d_i * problem.nodes[i].population_size <= Z)
+    model.addConstr(max_dist-min_dist <= problem.beta)
+
+    model.setObjective(Z, GRB.MINIMIZE)
     model.optimize()
     if model.status == GRB.INFEASIBLE:
         return False
