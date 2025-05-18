@@ -126,6 +126,16 @@ class FirstSolution:
                 if do_print_reason:
                     print(f'Infeasible because city {c.index} exceeds capacity')
                 return False
+        # Check alpha feasibility
+        if not self.is_alpha_feasible():
+            if do_print_reason:
+                print("Infeasible because alpha constraint is violated")
+            return False
+        # Check beta feasibility
+        if not self.is_beta_feasible():
+            if do_print_reason:
+                print("Infeasible because beta constraint is violated")
+            return False
         return True
         
     def is_alpha_feasible(self):
