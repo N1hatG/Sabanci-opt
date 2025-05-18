@@ -228,7 +228,7 @@ def solve_to_optimality(problem: ProblemModel, radius, warm_start_path=None):
         for i in range(problem.num_communities):
             d_i = model.addVar()
             model.addConstr(
-                d_i == gp.quicksum((problem.nodes[i].dist_to(problem.nodes[j]) * problem.nodes[i].population_size) * is_assigned_to[i, j] for j in range(problem.num_communities))
+                d_i == gp.quicksum((problem.nodes[i].dist_to(problem.nodes[j])) * is_assigned_to[i, j] for j in range(problem.num_communities))
             )
             model.addConstr(d_i <= max_dist)
             model.addConstr(d_i >= min_dist)
