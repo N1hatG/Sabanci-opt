@@ -93,14 +93,38 @@ class FirstSolution:
         return max_r
     
     def print_sol(self):
-        print(f'Centers are deployed in:')
+        def print_sol(self):
+        #Assignments
+        for center in self.centers:
+            assigned = ', '.join(str(city.index) for city in self.assigned_cities[center])
+            print(f"Healthcenter deployed at {center.index}: Communities Assigned = {{{assigned}}}")
+        print("\n")
+
+        print(f"Objective Value: {self.calculate_objective()}\n")
+
+        # Workload Fairness
+        workloads = [sum(city.population_size for city in self.assigned_cities[center]) for center in self.centers]
+        min_workload = min(workloads) if workloads else 0
+        max_workload = max(workloads) if workloads else 0
+        workload_gap = max_workload - min_workload
+        alpha = self.model.alpha if hasattr(self.model, 'alpha') else None
+        print("Workload Fairness Check:")
+        print(f"  Min workload = {min_workload:.2f}, Max workload = {max_workload:.2f}")
+        print(f"  Workload Gap = {workload_gap:.2f} (Threshold Alpha = {alpha})\n")
+
+        #Distance Fairness
+        community_distances = []
         for center in self.assigned_cities:
-            print(center.index)
-        print("With cities assigned:")
-        for center in self.assigned_cities:
-            print(f'''City {center.index} <- ({" ".join([str(i.index) for i in self.assigned_cities[center]])})''')
-        print(f'With Z={self.calculate_objective()}')
-        self.is_feasible(do_print_reason=True)
+            for city in self.assigned_cities[center]:
+                community_distances.append(city.dist_to(center))
+        min_distance = min(community_distances) if community_distances else 0
+        max_distance = max(community_distances) if community_distances else 0
+        distance_gap = max_distance - min_distance
+        beta = self.model.beta if hasattr(self.model, 'beta') else None
+
+        print("Distance Fairness Check:")
+        print(f"  Min Distance = {min_distance:.2f}, Max Distance = {max_distance:.2f}")
+        print(f"  Distance Gap = {distance_gap:.2f} (Threshold Beta = {beta})\n")
 
 
     def is_feasible(self, do_print_reason = False):
