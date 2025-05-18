@@ -89,10 +89,21 @@ def solve_given_r(problem: ProblemModel, radius):
         model.addConstr(
             lower_capacity <= used_capacity
         )
+        
+    model.addConstr(upper_capacity - lower_capacity <= problem.alpha)
 
-    model.addConstr(upper_capacity-lower_capacity <= problem.alpha)
-    
-    
+    #Beta constraint 
+    max_dist = model.addVar()
+    min_dist = model.addVar()
+    for i in range(problem.num_communities):
+        d_i = model.addVar()
+        model.addConstr(
+            d_i == gp.quicksum(is_assigned_to[i, j] * problem.nodes[i].dist_to(problem.nodes[j]) for j in range(problem.num_communities))
+        )
+        model.addConstr(d_i <= max_dist)
+        model.addConstr(d_i >= min_dist)
+    model.addConstr(max_dist - min_dist <= problem.beta)
+
     print(f'Starting optimization...')        
     #model.setObjective(1)
     model.optimize()

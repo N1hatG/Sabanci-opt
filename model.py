@@ -93,7 +93,6 @@ class FirstSolution:
         return max_r
     
     def print_sol(self):
-        def print_sol(self):
         #Assignments
         for center in self.centers:
             assigned = ', '.join(str(city.index) for city in self.assigned_cities[center])
