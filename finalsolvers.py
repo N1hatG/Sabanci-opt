@@ -206,6 +206,7 @@ def solve_to_optimality(problem: ProblemModel, radius, warm_start_path=None):
 
     max_dist = model.addVar()
     min_dist = model.addVar()
+    Z = model.addVar()
     if 0:
         for i in range(problem.num_communities):
             node = problem.nodes[i]
@@ -222,6 +223,7 @@ def solve_to_optimality(problem: ProblemModel, radius, warm_start_path=None):
                     node.population_size * node.dist_to(problem.nodes[j])* is_assigned_to[i, j] >=
                     min_dist - ((1-is_center[j])*dist_bigM)
                 )
+        
     else:
         for i in range(problem.num_communities):
             d_i = model.addVar()
@@ -230,8 +232,8 @@ def solve_to_optimality(problem: ProblemModel, radius, warm_start_path=None):
             )
             model.addConstr(d_i <= max_dist)
             model.addConstr(d_i >= min_dist)
+            model.addConstr(d_i * problem.nodes[i].population_size <= Z)
     model.addConstr(max_dist - min_dist <= problem.beta)
-
     # --- WARM START INTEGRATION ---
     if warm_start_path and parse_solution_file is not None and os.path.exists(warm_start_path):
         print(f"Applying warm start from {warm_start_path}")
@@ -248,7 +250,7 @@ def solve_to_optimality(problem: ProblemModel, radius, warm_start_path=None):
             is_center[i].Start = 1 if i in set(assignments.values()) else 0
 
     print(f'Starting optimization...')        
-    model.setObjective(max_dist, GRB.MINIMIZE)
+    model.setObjective(Z, GRB.MINIMIZE)
     model.optimize()
     if 1:
         if model.status != GRB.INFEASIBLE:
