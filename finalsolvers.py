@@ -98,7 +98,7 @@ def solve_given_r(problem: ProblemModel, radius):
     for i in range(problem.num_communities):
         d_i = model.addVar()
         model.addConstr(
-            d_i == gp.quicksum(is_assigned_to[i, j] * problem.nodes[i].dist_to(problem.nodes[j]) for j in range(problem.num_communities))
+            d_i == gp.quicksum(problem.nodes[i].population_size * is_assigned_to[i, j] * problem.nodes[i].dist_to(problem.nodes[j]) for j in range(problem.num_communities))
         )
         model.addConstr(d_i <= max_dist)
         model.addConstr(d_i >= min_dist)
@@ -141,11 +141,6 @@ def solve_to_optimality(problem: ProblemModel, radius):
     # upper and lower capacities
     upper_capacity = model.addVar()
     lower_capacity = model.addVar()
-
-    # max, min distance
-    Z = model.addVar()
-    L = model.addVar()
-
 
     # constraints
     print(f'Adding constraints')
