@@ -229,7 +229,7 @@ def solve_to_optimality(problem: ProblemModel, radius):
                 node.population_size * node.dist_to(problem.nodes[j])* is_assigned_to[i, j] >=
                 L - ((1-is_center[j])*max_dist)
             )
-    model.addConstr(Z - L < problem.beta)
+    model.addConstr(Z - L <= problem.beta)
 
     print(f'Starting optimization...')        
     model.setObjective(Z, GRB.MINIMIZE)
