@@ -93,14 +93,6 @@ def solve_given_r(problem: ProblemModel, radius):
         
     model.addConstr(upper_capacity - lower_capacity <= problem.alpha)
 
-    for i in range(problem.num_communities):
-        d_i = model.addVar()
-        model.addConstr(
-            d_i == gp.quicksum(problem.nodes[i].population_size * is_assigned_to[i, j] * problem.nodes[i].dist_to(problem.nodes[j]) for j in range(problem.num_communities))
-        )
-        model.addConstr(d_i <= max_dist)
-        model.addConstr(d_i >= min_dist)
-    model.addConstr(max_dist - min_dist <= problem.beta)
 
     print(f'Starting optimization...')        
     #model.setObjective(1)
