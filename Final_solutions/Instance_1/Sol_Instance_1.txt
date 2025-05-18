@@ -1,4 +1,3 @@
-Stage-1:
 Healthcenter deployed at 12: Communities Assigned = {1, 2, 6, 21, 37, 55, 56, 57, 59, 60, 65, 74}
 Healthcenter deployed at 26: Communities Assigned = {7, 8, 11, 12, 17, 33, 70, 73, 81, 91}
 Healthcenter deployed at 35: Communities Assigned = {3, 4, 5, 13, 15, 20, 22, 24, 25, 26, 31, 32, 34, 35, 40, 75, 76, 77, 80, 85}
@@ -9,5 +8,14 @@ Healthcenter deployed at 62: Communities Assigned = {48, 52, 61, 62, 66, 67, 68,
 Healthcenter deployed at 71: Communities Assigned = {42, 43, 44, 46, 47, 49, 50, 53, 71}
 Healthcenter deployed at 88: Communities Assigned = {79, 82, 83, 84, 86, 87, 88, 90, 92, 93, 94, 95, 100}
 Healthcenter deployed at 96: Communities Assigned = {10, 18, 19, 28, 30, 38, 39, 78, 89, 96, 97, 98, 99}
+
+
 Objective Value: 75103.69066830205
 
+Workload Fairness Check:
+  Min workload = 543.00, Max workload = 654.00
+  Workload Gap = 111.00 (Threshold Alpha = 116)
+
+Distance Fairness Check:
+  Min Distance = 0.00, Max Distance = 523.70
+  Distance Gap = 523.70 (Threshold Beta = 545.0777926131278)
