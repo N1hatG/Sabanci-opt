@@ -16,8 +16,7 @@ except ImportError:
 # Finds *one* solution if optimal solution is below given radius. Can be used with binary search
 def solve_given_r(problem: ProblemModel, radius):
     model = gp.Model('Sabanci_Covering_Model')
-    lower_range = radius - 2*problem.beta
-    feasible_ranges = algos.get_points_in_range(radius, problem.nodes, min_dist=lower_range)
+    feasible_ranges = algos.get_points_in_range(radius, problem.nodes)
     # Decision variables
     # 1 if city i contains a healthcenter, 0 otherwise
     print(f'Initializing decision variables.')
@@ -42,7 +41,7 @@ def solve_given_r(problem: ProblemModel, radius):
                 gp.quicksum(is_assigned_to[i, other_point] for other_point in points_in_range) == 1
             )
     if 1:
-        outside_points = algos.get_points_out_range(radius, problem.nodes, min_dist=lower_range)
+        outside_points = algos.get_points_out_range(radius, problem.nodes)
         for i in range(problem.num_communities):
             points_out_range = outside_points[i]
             model.addConstr(
@@ -98,6 +97,17 @@ def solve_given_r(problem: ProblemModel, radius):
         
     model.addConstr(upper_capacity - lower_capacity <= problem.alpha)
 
+    max_dist = model.addVar()
+    min_dist = model.addVar()
+    for i in range(problem.num_communities):
+        d_i = model.addVar()
+        model.addConstr(
+            d_i == gp.quicksum((problem.nodes[i].dist_to(problem.nodes[j])) * is_assigned_to[i, j] for j in range(problem.num_communities))
+        )
+        model.addConstr(d_i <= max_dist)
+        model.addConstr(d_i >= min_dist)
+    model.addConstr(max_dist-min_dist <= problem.beta)
+        
 
     print(f'Starting optimization...')        
     #model.setObjective(1)
