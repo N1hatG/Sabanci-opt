@@ -1,4 +1,5 @@
 import itertools as it
+import os
 from typing import List
 
 def to_num_arr(inp_str):
@@ -93,13 +94,14 @@ class FirstSolution:
         return max_r
     
     def print_sol(self):
-        #Assignments
+        output_lines = []
+        # Assignments
         for center in self.centers:
             assigned = ', '.join(str(city.index) for city in self.assigned_cities[center])
-            print(f"Healthcenter deployed at {center.index}: Communities Assigned = {{{assigned}}}")
-        print("\n")
+            output_lines.append(f"Healthcenter deployed at {center.index}: Communities Assigned = {{{assigned}}}")
+        output_lines.append("\n")
 
-        print(f"Objective Value: {self.calculate_objective()}\n")
+        output_lines.append(f"Objective Value: {self.calculate_objective()}\n")
 
         # Workload Fairness
         workloads = [sum(city.population_size for city in self.assigned_cities[center]) for center in self.centers]
@@ -107,11 +109,11 @@ class FirstSolution:
         max_workload = max(workloads) if workloads else 0
         workload_gap = max_workload - min_workload
         alpha = self.model.alpha if hasattr(self.model, 'alpha') else None
-        print("Workload Fairness Check:")
-        print(f"  Min workload = {min_workload:.2f}, Max workload = {max_workload:.2f}")
-        print(f"  Workload Gap = {workload_gap:.2f} (Threshold Alpha = {alpha})\n")
+        output_lines.append("Workload Fairness Check:")
+        output_lines.append(f"  Min workload = {min_workload:.2f}, Max workload = {max_workload:.2f}")
+        output_lines.append(f"  Workload Gap = {workload_gap:.2f} (Threshold Alpha = {alpha})\n")
 
-        #Distance Fairness
+        # Distance Fairness
         community_distances = []
         for center in self.assigned_cities:
             for city in self.assigned_cities[center]:
@@ -121,10 +123,12 @@ class FirstSolution:
         distance_gap = max_distance - min_distance
         beta = self.model.beta if hasattr(self.model, 'beta') else None
 
-        print("Distance Fairness Check:")
-        print(f"  Min Distance = {min_distance:.2f}, Max Distance = {max_distance:.2f}")
-        print(f"  Distance Gap = {distance_gap:.2f} (Threshold Beta = {beta})\n")
+        output_lines.append("Distance Fairness Check:")
+        output_lines.append(f"  Min Distance = {min_distance:.2f}, Max Distance = {max_distance:.2f}")
+        output_lines.append(f"  Distance Gap = {distance_gap:.2f} (Threshold Beta = {beta})\n")
 
+        output_str = '\n'.join(output_lines)
+        return output_str
 
     def is_feasible(self, do_print_reason = False):
         is_assigned = [False] * self.model.num_communities

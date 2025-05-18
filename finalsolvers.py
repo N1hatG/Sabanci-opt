@@ -227,7 +227,7 @@ def solve_to_optimality(problem: ProblemModel, radius):
     model.addConstr(max_dist - min_dist <= problem.beta)
 
     print(f'Starting optimization...')        
-    model.setObjective(Z, GRB.MINIMIZE)
+    model.setObjective(max_dist, GRB.MINIMIZE)
     model.optimize()
     if 1:
         if model.status != GRB.INFEASIBLE:
