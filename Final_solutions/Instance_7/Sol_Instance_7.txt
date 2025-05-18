@@ -1,46 +1,46 @@
-Healthcenter deployed at 7: Communities Assigned = {17, 38, 74, 107, 117, 156, 183}
-Healthcenter deployed at 11: Communities Assigned = {40, 75, 120, 130, 141, 182}
-Healthcenter deployed at 22: Communities Assigned = {19, 46, 97, 128, 190}
-Healthcenter deployed at 24: Communities Assigned = {50, 152, 187, 197, 200}
-Healthcenter deployed at 26: Communities Assigned = {16, 48, 69, 89, 149, 178}
-Healthcenter deployed at 32: Communities Assigned = {7, 21, 32, 70, 151, 181}
-Healthcenter deployed at 36: Communities Assigned = {80, 83, 136, 138, 143}
-Healthcenter deployed at 46: Communities Assigned = {66, 87, 94, 122}
-Healthcenter deployed at 54: Communities Assigned = {95, 100, 103, 105, 146, 196}
-Healthcenter deployed at 72: Communities Assigned = {26, 72, 139, 172, 192}
-Healthcenter deployed at 84: Communities Assigned = {37, 39, 41, 59, 153}
-Healthcenter deployed at 85: Communities Assigned = {77, 85, 133, 194}
-Healthcenter deployed at 86: Communities Assigned = {18, 82, 86, 102, 121, 148, 164}
-Healthcenter deployed at 90: Communities Assigned = {3, 64, 76, 119, 142, 179}
-Healthcenter deployed at 91: Communities Assigned = {10, 30, 63, 67, 91, 162, 173, 175}
-Healthcenter deployed at 95: Communities Assigned = {23, 123, 140, 195}
-Healthcenter deployed at 99: Communities Assigned = {33, 62, 71, 110}
-Healthcenter deployed at 108: Communities Assigned = {8, 27, 47, 99, 101, 137, 169, 171}
-Healthcenter deployed at 125: Communities Assigned = {4, 25, 31, 114}
-Healthcenter deployed at 126: Communities Assigned = {24, 126, 185, 189}
-Healthcenter deployed at 128: Communities Assigned = {9, 116, 161, 174, 180, 198}
-Healthcenter deployed at 129: Communities Assigned = {51, 106, 135, 168}
-Healthcenter deployed at 148: Communities Assigned = {1, 6, 35, 44, 49, 53, 58, 61, 88, 93, 108, 125, 127, 165, 176}
-Healthcenter deployed at 150: Communities Assigned = {14, 28, 43, 92, 132, 150}
-Healthcenter deployed at 154: Communities Assigned = {13, 42, 154, 177}
-Healthcenter deployed at 161: Communities Assigned = {29, 34, 79, 104, 112}
-Healthcenter deployed at 164: Communities Assigned = {45, 56, 73, 84, 90, 96}
-Healthcenter deployed at 166: Communities Assigned = {115, 118, 131, 166}
-Healthcenter deployed at 171: Communities Assigned = {22, 98, 113, 163, 186, 199}
-Healthcenter deployed at 173: Communities Assigned = {52, 134, 144, 155, 170}
-Healthcenter deployed at 182: Communities Assigned = {2, 15, 57, 129, 188}
-Healthcenter deployed at 183: Communities Assigned = {78, 81, 147, 160}
-Healthcenter deployed at 191: Communities Assigned = {11, 12, 36, 55, 124, 145, 158}
-Healthcenter deployed at 193: Communities Assigned = {5, 20, 60, 65, 68, 159, 184, 191}
-Healthcenter deployed at 196: Communities Assigned = {54, 109, 111, 157, 167, 193}
+Healthcenter deployed at 15: Communities Assigned = {11, 15, 59, 130}
+Healthcenter deployed at 18: Communities Assigned = {18, 27, 33, 101, 110}
+Healthcenter deployed at 20: Communities Assigned = {13, 20, 184, 188, 196}
+Healthcenter deployed at 23: Communities Assigned = {6, 57, 124, 129, 140}
+Healthcenter deployed at 32: Communities Assigned = {21, 32, 70, 74, 93, 107, 113, 165, 181}
+Healthcenter deployed at 41: Communities Assigned = {12, 37, 55, 114}
+Healthcenter deployed at 54: Communities Assigned = {54, 95, 105, 109, 127, 146}
+Healthcenter deployed at 64: Communities Assigned = {3, 64, 79, 112, 186}
+Healthcenter deployed at 72: Communities Assigned = {50, 131, 133, 187, 192}
+Healthcenter deployed at 73: Communities Assigned = {45, 63, 73, 80, 142}
+Healthcenter deployed at 74: Communities Assigned = {17, 71, 92, 141, 147, 177}
+Healthcenter deployed at 77: Communities Assigned = {8, 24, 134, 137, 185, 199}
+Healthcenter deployed at 94: Communities Assigned = {10, 34, 66, 104, 126, 174}
+Healthcenter deployed at 100: Communities Assigned = {25, 31, 39, 40}
+Healthcenter deployed at 106: Communities Assigned = {36, 106, 135, 138, 182}
+Healthcenter deployed at 107: Communities Assigned = {7, 38, 78, 156, 183}
+Healthcenter deployed at 109: Communities Assigned = {5, 44, 60, 111, 193}
+Healthcenter deployed at 116: Communities Assigned = {19, 22, 83, 171, 190}
+Healthcenter deployed at 119: Communities Assigned = {9, 29, 46, 90, 119, 179}
+Healthcenter deployed at 121: Communities Assigned = {82, 86, 88, 121, 176}
+Healthcenter deployed at 124: Communities Assigned = {67, 136, 143, 145, 153, 162, 164, 175}
+Healthcenter deployed at 134: Communities Assigned = {85, 152, 194, 200}
+Healthcenter deployed at 139: Communities Assigned = {1, 26, 69, 72, 139, 155, 159}
+Healthcenter deployed at 146: Communities Assigned = {4, 41, 56, 58, 75, 100, 108, 125, 157, 191}
+Healthcenter deployed at 148: Communities Assigned = {30, 91, 96, 102, 148}
+Healthcenter deployed at 149: Communities Assigned = {16, 81, 89, 149, 151, 178}
+Healthcenter deployed at 150: Communities Assigned = {14, 28, 43, 84, 99, 103, 150, 169}
+Healthcenter deployed at 154: Communities Assigned = {2, 42, 65, 154, 158}
+Healthcenter deployed at 160: Communities Assigned = {47, 62, 115, 118, 120, 160}
+Healthcenter deployed at 166: Communities Assigned = {48, 49, 53, 61, 117, 132, 144, 166}
+Healthcenter deployed at 167: Communities Assigned = {52, 77, 167, 170, 172, 173, 197}
+Healthcenter deployed at 171: Communities Assigned = {23, 97, 98, 163, 168}
+Healthcenter deployed at 172: Communities Assigned = {76, 116, 128, 180, 198}
+Healthcenter deployed at 180: Communities Assigned = {87, 94, 122, 161, 189}
+Healthcenter deployed at 195: Communities Assigned = {35, 51, 68, 123, 195}
 
 
-Objective Value: 33898.91222443576
+Objective Value: 32730.285134718888
 
 Workload Fairness Check:
-  Min workload = 260.00, Max workload = 321.00
-  Workload Gap = 61.00 (Threshold Alpha = 62)
+  Min workload = 274.00, Max workload = 321.00
+  Workload Gap = 47.00 (Threshold Alpha = 62)
 
 Distance Fairness Check:
-  Min Distance = 0.00, Max Distance = 33898.91
-  Distance Gap = 33898.91 (Threshold Beta = 88052.3062630389)
+  Min Distance = 0.00, Max Distance = 32730.29
+  Distance Gap = 32730.29 (Threshold Beta = 88052.3062630389)

@@ -5,6 +5,11 @@ import gurobipy as gp
 from gurobipy import GRB
 
 import sys
+import os
+try:
+    from final_methods.parser import parse_solution_file
+except ImportError:
+    parse_solution_file = None
 
 #sys.stdout = open("output_log.txt", "w")
 
@@ -116,7 +121,7 @@ def solve_given_r(problem: ProblemModel, radius):
             return False
 
 # Finds the optimal solution as long as radius is above it. Bigger radius means slower solution
-def solve_to_optimality(problem: ProblemModel, radius):
+def solve_to_optimality(problem: ProblemModel, radius, warm_start_path=None):
     model = gp.Model('Sabanci_Covering_Model')
     feasible_ranges = algos.get_points_in_range(radius, problem.nodes)
     # Decision variables
@@ -226,6 +231,21 @@ def solve_to_optimality(problem: ProblemModel, radius):
             model.addConstr(d_i <= max_dist)
             model.addConstr(d_i >= min_dist)
     model.addConstr(max_dist - min_dist <= problem.beta)
+
+    # --- WARM START INTEGRATION ---
+    if warm_start_path and parse_solution_file is not None and os.path.exists(warm_start_path):
+        print(f"Applying warm start from {warm_start_path}")
+        assignments = parse_solution_file(warm_start_path)
+        # Set assignment variables
+        for community, healthcenter in assignments.items():
+            if (healthcenter in range(problem.num_communities)) and (community in range(problem.num_communities)):
+                is_assigned_to[community, healthcenter].Start = 1
+                for j in range(problem.num_communities):
+                    if j != healthcenter:
+                        is_assigned_to[community, j].Start = 0
+        # Set center open variables
+        for i in range(problem.num_communities):
+            is_center[i].Start = 1 if i in set(assignments.values()) else 0
 
     print(f'Starting optimization...')        
     model.setObjective(max_dist, GRB.MINIMIZE)

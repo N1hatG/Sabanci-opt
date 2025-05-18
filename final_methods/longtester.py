@@ -24,7 +24,7 @@ if len(sys.argv) > 2:
     r = int(sys.argv[2])
 while 1:
     print(f"🔍 Trying radius = {r}")
-    sol = finalsolvers.solve_to_optimality(model, r)
+    sol = finalsolvers.solve_to_optimality(model, r, warm_start_path=f'Final_solutions/{instance_id}/Sol_{instance_id}.txt')
     if sol:
         print(f"🧪 Solution found at radius = {r}, checking feasibility...")
         if True:
