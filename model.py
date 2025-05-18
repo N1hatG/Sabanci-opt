@@ -190,10 +190,6 @@ class FirstSolution:
         return (max_distance - min_distance) <= beta
         
     def to_file(self, filepath):
-        res_str = 'Stage-1:\n'
-        for c in self.centers:
-            res_str += f"""Healthcenter deployed at {c.index}: Communities Assigned = {'{' + ', '.join([str(u.index) for u in self.assigned_cities[c]]) + '}'}\n"""
-        res_str += f'Objective Value: {self.calculate_objective()}\n\n'
-
+        res_str = self.print_sol()
         with open(filepath, 'w+') as fil:
             fil.write(res_str)
