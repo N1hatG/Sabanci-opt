@@ -15,7 +15,7 @@ instance_id = sys.argv[1]
 
 
 try:
-    os.mkdir(f'solutions/{instance_id}')
+    os.mkdir(f'Final_solutions/{instance_id}')
 except Exception:
     pass
 model = ProblemModel.from_file(f'instances/{instance_id}.txt')

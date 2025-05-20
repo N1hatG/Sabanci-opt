@@ -14,7 +14,7 @@ instance_path = f'final_data/{instance_id}.txt' if 0 else f'instances/{instance_
 res_path = f'Sol_{instance_path}'
 model = ProblemModel.from_file(instance_path)
 try:
-    os.mkdir(f'solutions/{instance_id}')
+    os.mkdir(f'Final_solutions/{instance_id}')
 except Exception:
     pass
 solution = None
