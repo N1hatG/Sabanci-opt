@@ -60,6 +60,38 @@ We use LKH-3 algorithm developed by Keld Helsgaun to solve the CVRP. Note that a
 
 ---
 
+## 🗂 Directory Structure
+
+```
+.
+├── algos.py                             # Utilities for radius filtering
+├── CoveringSolver.py                    # Gurobi models for Stage 1
+├── generate_vrp.py                      # VRP converter and LKH output parser
+├── heuristicsolver.py                   # Full solver with heuristic loop
+├── longtester.py                        # Iteratively checks feasible radius
+├── main.py                              # Minimal execution pipeline
+├── manualsolver.py                      # Manual run with LKH toggle
+├── model.py                             # Data structures and feasibility checks
+├── instances/                           # Input data (not included here)
+├── solutions/                           # Output files for solved instances
+├── optchall_25.pdf                      # Original challenge description
+├── finalsolvers.py                      # Final round solvers 
+├──── final_methods/genetic.py           # Genetic algorithm solver
+├──── final_methods/longtester.py        # Final version of longtester.py
+├──── final_methods/longtester_nobeta.py # Relaxed version of longtester
+├──── final_methods/manualsolver.py      # Final version of manualsolver.py
+├──── final_methods/parser.py            # Solution parser
+├── instances/                           # Problem instances
+├── final_data/                          # Given final round files
+
+
+
+
+
+```
+
+---
+
 ## 🧪 How to Run
 
 ### Install Requirements
@@ -113,5 +145,13 @@ This file includes:
 Developed by:
 - **Nihat Guliyev** – AI Engineering @ Hacettepe University
 - **Agoraaa** – Someone similar
+
+---
+
+## 📬 Contact
+
+For technical details:
+- 🔗 https://github.com/N1hatG
+- 🔗 https://github.com/Agoraaa
 
 ---
